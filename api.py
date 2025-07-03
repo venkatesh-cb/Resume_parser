@@ -45,8 +45,9 @@ def get_llm_prompt(resume_text):
     return f"""
 **Task**: Extract structured information from the resume text below.
 **Strict Instruction**: You MUST ONLY return a single, complete, and valid JSON object. Do NOT include any additional text, explanations, or Markdown code block delimiters (like ```json or ```).
-The JSON object should have the following keys (add your actual desired keys here, e.g., name, email, phone, skills, experience, education):
-{{
+The JSON object should have the following keys (ensure these match exactly what you want):
+{
+    {
   "name": "Full Name",
   "email": "email@example.com",
   "phone": "123-456-7890",
@@ -67,17 +68,8 @@ The JSON object should have the following keys (add your actual desired keys her
       "graduation_year": "Year"
     }}
   ]
-}}
-
-**Instructions**:
-1. Extract ALL available information in the exact JSON structure above.
-2. Group content under headings using the alias mappings provided.
-3. For lists (like skills, education, experience), capture ALL items.
-4. Handle name variations: First/Last, Initials, Preferred names.
-5. Normalize dates to YYYY-MM or YYYY format.
-6. Capture ALL links (personal, social, project-related).
-7. If a piece of information is not found, use a `null` value for the corresponding key.
-8. NEVER add any explanatory text, comments, or apologies before or after the JSON output. Your entire response must be ONLY the JSON object.
+  }
+}
 
 **Resume Text**:
 {resume_text}
@@ -165,8 +157,8 @@ async def parse_resume(request: ResumeRequest):
     try:
         output = llm(
             prompt,
-            max_tokens=2048,  # Max tokens to generate
-            stop=["```", "}"],       # Stop generation at the end of the text block
+            max_tokens=4096,  # Max tokens to generate
+            stop=["```"],       # Stop generation at the end of the text block
             echo=False        # Don't echo the prompt in the output
         )
         
