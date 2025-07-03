@@ -4,3 +4,10 @@ transformers
 torch
 accelerate
 huggingface_hub
+
+#server_requirements.txt
+fastapi
+uvicorn[standard]
+llama-cpp-python
+pydantic
+requests # To download the model
