@@ -6,7 +6,7 @@ from llama_cpp import Llama
 import os
 import json
 import requests
-
+import re
 # --- Configuration ---
 # Using a quantized model from TheBloke, a reputable source for GGUF models.
 MODEL_NAME = "TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
@@ -41,56 +41,30 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     """Constructs the detailed prompt for the LLM."""
-    # This is the same detailed prompt you designed earlier.
+    # Ensure this section is very clear and strict.
     return f"""
-**Task**: Extract structured information from the resume text below and return ONLY valid JSON. Recognize alternative section names using these mappings:
-{{
-  "Contact": ["Personal Details", "Contact Information", "Get in Touch"],
-  "Education": ["Academic Background", "Qualifications", "Degrees"],
-  "Skills": ["Technical Skills", "Competencies", "Abilities"],
-  "Experience": ["Work History", "Employment", "Professional Experience"],
-  "Projects": ["Key Projects", "Major Projects", "Initiatives"]
-}}
-
-**Output Format**: 
+**Task**: Extract structured information from the resume text below.
+**Strict Instruction**: You MUST ONLY return a single, complete, and valid JSON object. Do NOT include any additional text, explanations, or Markdown code block delimiters (like ```json or ```).
+The JSON object should have the following keys (add your actual desired keys here, e.g., name, email, phone, skills, experience, education):
 {{
   "name": "Full Name",
-  "contact": {{
-    "phone": ["+1 234567890"],
-    "email": ["name@domain.com"],
-    "address": ["123 Main St, City"],
-    "links": {{
-      "linkedin": "https://linkedin.com/in/username",
-      "github": "https://github.com/username",
-      "portfolio": "https://personalwebsite.com"
+  "email": "email@example.com",
+  "phone": "123-456-7890",
+  "summary": "Professional summary...",
+  "skills": ["Skill1", "Skill2"],
+  "experience": [
+    {{
+      "title": "Job Title",
+      "company": "Company Name",
+      "duration": "Start Date - End Date",
+      "description": "Job responsibilities and achievements."
     }}
-  }},
+  ],
   "education": [
     {{
       "degree": "Degree Name",
-      "institution": "University Name",
-      "dates": "YYYY-YYYY",
-      "details": ["Relevant coursework/projects"]
-    }}
-  ],
-  "skills": {{
-    "technical": ["Python", "SQL"],
-    "languages": ["English (Fluent)"],
-    "tools": ["Git", "Docker"]
-  }},
-  "experience": [
-    {{
-      "position": "Job Title",
-      "company": "Company Name",
-      "dates": "YYYY-YYYY",
-      "description": ["Achievement 1", "Achievement 2"]
-    }}
-  ],
-  "projects": [
-    {{
-      "name": "Project Name",
-      "description": "Brief project summary",
-      "technologies": ["Tech Stack"]
+      "university": "University Name",
+      "graduation_year": "Year"
     }}
   ]
 }}
@@ -111,21 +85,46 @@ def get_llm_prompt(resume_text):
 """
 
 def clean_llm_output(text_output):
-    """Extracts the JSON block from the LLM's raw text output."""
+    """
+    Extracts and cleans the JSON block from the LLM's raw text output.
+    Handles Markdown code blocks and common LLM conversational filler.
+    """
     try:
-        # Find the start of the JSON object
+        # Step 1: Try to find a JSON block wrapped in ```json ... ```
+        json_match = re.search(r'```json\n({.*?})\n```', text_output, re.DOTALL)
+        if json_match:
+            json_string = json_match.group(1)
+            print("Found JSON in ```json``` block.")
+            return json.loads(json_string)
+
+        # Step 2: Try to find a JSON block wrapped in ``` ... ``` (without 'json' language specifier)
+        json_match = re.search(r'```\n({.*?})\n```', text_output, re.DOTALL)
+        if json_match:
+            json_string = json_match.group(1)
+            print("Found JSON in generic ``` block.")
+            return json.loads(json_string)
+
+        # Step 3: Fallback to finding the first { and last } (your original approach)
+        # This is less robust but handles cases where no Markdown block is used.
         json_start_index = text_output.find('{')
-        # Find the end of the JSON object
         json_end_index = text_output.rfind('}') + 1
         
-        if json_start_index != -1 and json_end_index != -1:
+        if json_start_index != -1 and json_end_index != -1 and json_end_index > json_start_index:
             json_string = text_output[json_start_index:json_end_index]
+            print("Found JSON by searching for {} bounds.")
             return json.loads(json_string)
         else:
-            print("Warning: Could not find a JSON block in the output.")
+            print("Warning: Could not find a valid JSON block in the output.")
+            print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
             return None
-    except json.JSONDecodeError:
-        print("Error: Failed to decode the output into JSON.")
+    except json.JSONDecodeError as e:
+        print(f"Error: Failed to decode the output into JSON. Details: {e}")
+        print(f"Attempted JSON string:\n{json_string}") # Print the string that failed to decode
+        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred in clean_llm_output: {e}")
+        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
         return None
 
 # --- API Lifespan Events ---
@@ -167,7 +166,7 @@ async def parse_resume(request: ResumeRequest):
         output = llm(
             prompt,
             max_tokens=2048,  # Max tokens to generate
-            stop=["```"],       # Stop generation at the end of the text block
+            stop=["```", "}"],       # Stop generation at the end of the text block
             echo=False        # Don't echo the prompt in the output
         )
         

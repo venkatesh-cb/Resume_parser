@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Output and cache
+*.out
+*.pdf.cache
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Python package files
+*.egg
+*.whl
+
+# Secrets and credentials
+*.pem
+*.key
+*.env
+.env.*
+
+# Test & coverage
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# PDFs, resumes, or docs (optional)
+*.pdf
+*.docx
+*.jpg
+*.png
+
+# If you're downloading models or datasets
+models/
+data/
+downloads/

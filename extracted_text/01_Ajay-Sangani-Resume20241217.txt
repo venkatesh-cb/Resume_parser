@@ -1,0 +1,240 @@
+Mr. Ajay 
+Sangani
+Sr. iOS Developer
+ajaysanganibro@gmail.com
++91 7874227835
+Surat, Gujarat, India
+8th August 1993
+Indian
+Male
+https://www.linkedin.com/in/ajay-
+sangani-7b047883
+https://github.com/Ajay-sangani
+ajay_sangani88
+Ajay Sangani
+EDUCATION
+Master of Computer 
+Application, Gujarat 
+Technological University
+2014 – 2016 | Ahmedabad, India
+Bachelor of Computer 
+Applications, Veer Narmad 
+South Gujarat University
+2011 – 2014 | Surat, India
+LANGUAGES
+English
+Hindi
+PROFILE
+"iOS Developer with 8+ years of experience" crafting
+innovative applications using SwiftUI, Swift, and Objective-C,
+tailored to project requirements. Dedicated to continuous
+learning, skill enhancement, and staying ahead with the latest
+techniques, trends, and technologies.
+• Key Strengths:
+• Self-motivated, proactive problem-solver, and self-learner.
+• Adept at resolving technical challenges independently and 
+collaboratively during app development.
+• Domain Expertise:
+• Specialized in health, utility, social media, e-commerce, and 
+serverless apps using AWS and Firebase services.
+• Core Competencies:
+• Mobile Development: Comprehensive knowledge of design, 
+analysis, implementation, and mobile app development best 
+practices.
+• System Integration: Expertise in integrating social media 
+platforms (Facebook, Twitter, Gmail, LinkedIn, Instagram) and 
+APIs for user contact synchronization.
+• Custom UI Implementation: Developed advanced custom UI 
+components like calendar views (day, month, week) and event 
+triggers using the EventKit Framework.
+• End-to-End Project Execution: Skilled in deployment, version 
+control, testing, post-implementation support, and resolving 
+UAT issues.
+• Serverless Architecture: Built scalable and efficient serverless 
+applications leveraging AWS and Firebase services.
+PROFESSIONAL EXPERIENCE
+Sensify Inc, Sr. iOS Developer
+September 2019 – present | New York, NY, USA
+• Develop and maintain robust, scalable, and high-
+performance iOS applications, ensuring seamless functionality 
+and optimal performance.
+• Design intuitive user interfaces and implement features in 
+alignment with business requirements to enhance user 
+experience.
+• Collaborate with cross-functional teams, including designers, 
+product managers, and backend developers, to deliver high-
+quality mobile solutions efficiently.
+• Ensure code quality by conducting thorough code reviews, 
+writing unit tests, and adhering to established coding standards 
+and best practices.
+• Manage the full app lifecycle, including App Store 
+submissions, updates, and resolving post-release issues to 
+maintain a seamless user experience.
+• Mentor junior developers by providing guidance, fostering a 
+culture of knowledge sharing, and contributing to team growth 
+and technical excellence.
+Drunken Ducks, Sr. iOS Developer
+July 2018 – August 2019 | Surat, India
+• Design and develop high-performance products with a focus 
+on scalability, efficiency, and user experience.
+• Maintain version control for all product code, ensuring 
+updates are efficiently managed and well-documented.
+• Enhance UI/UX by implementing modern design principles and 
+ensuring a seamless user experience.
+• Research and integrate new features to meet evolving 
+business and user needs.
+• Implement localization to support multiple languages, 
+ensuring a global reach and user accessibility.
+Pure ITES, iOS Developer
+June 2017 – June 2018 | Surat, India
+• Develop and maintain e-commerce applications including 
+food ordering apps, table booking systems, product-selling 
+platforms, and jewelry applications, ensuring high performance 
+and seamless user experiences.
+• Design and implement applications that are intuitive, user-
+friendly, and simple to navigate, focusing on enhancing customer 
+engagement and satisfaction.
+• Utilize the MVC architecture to build clean, maintainable, and 
+scalable iOS applications, ensuring adherence to best practices 
+and coding standards.
+• Provide mentorship and guidance to junior developers, 
+fostering their technical growth and encouraging a collaborative 
+team environment.
+• Optimize application performance by implementing efficient 
+code, resolving bugs, and ensuring smooth functionality across 
+all features.
+• Collaborate with cross-functional teams to align 
+development with business objectives, ensuring timely delivery 
+of high-quality products.
+Agile Infoways pvt. ltd., Jr. iOS Developer
+January 2016 – May 2017 | Ahmedabad, India
+• Work as a Junior iOS Developer, contributing to the 
+development and maintenance of the Munchh App under the 
+guidance of senior developers.
+• Collaborate with senior team members to understand project 
+requirements, implement features, and resolve bugs to ensure a 
+seamless user experience.
+• Learn and adopt new technologies and best practices in iOS 
+development to enhance skills and contribute effectively to the 
+team.
+• Participate in code reviews and receive constructive feedback 
+to improve code quality and development practices.
+• Assist in testing and debugging to ensure the stability, 
+performance, and reliability of the application.
+• Stay updated with iOS trends and industry standards to 
+support the delivery of modern, user-friendly mobile 
+applications.
+SKILLS
+Programming Languages & Frameworks
+•Swift, SwiftUI, Objective-C
+•UIKit, EventKit, StoreKit
+SDKs & Third-Party Tools
+• Facebook SDK, Google SDK, Firebase SDK
+• AWS SDK, PayPal SDK, Stripe SDK
+Database Management
+• SQLite, Realm, MongoDB
+• Firebase Realtime Database, Cloud Firestore
+Tools & Collaboration
+• Xcode, TestFlight, Jira, Trello, Azure DevOps, 
+BitBucket, GitHub, Gitlab
+Design patterns
+• Proficient in implementing design patterns such as 
+MVVM, MVC, Delegation, Target-Action, and 
+Observer (Notifications).
+• Skilled in Cocoa design patterns, including Decorator 
+(Categories, Delegates), Class Cluster, Adapter, and 
+Memento (NSUserDefaults, NSCoding).
+• Strong understanding of protocol-oriented 
+programming and concepts like delegation, protocols, 
+and categories in Swift and Objective-C.
+• Extensive experience in leveraging MVVM 
+architecture for clean, maintainable, and scalable code.
+App Store
+• Experienced in code signing, App Store submission, 
+and creating iTunes Store content. Proficient in 
+releasing apps to the App Store using tools like 
+Application Loader.
+• Well-versed in App Store guidelines and adept at 
+app distribution methods, including Ad-hoc and third-
+party tools like Dropbox. Skilled in handling app 
+updates and deployments with compliance to Apple 
+standards.
+Localization & Internationalization
+•Expertise in localizing storyboards and handling apps 
+in multiple languages.
+PROJECTS
+SensifyAware
+• Developed a mobile wellness app, enhancing user 
+engagement by 85% with innovative cognitive tracking features.
+• Includes test modules for smell, vision, hearing, fine motor 
+skills, memory, cognition, vocabulary, and language.
+• Impact: Enhanced cognitive health tracking for 85% of users, 
+with over 10,000 successful test sessions conducted within the 
+first quarter, leading to improved early detection of sensory and 
+cognitive impairments.
+Digihome | Manage Your Home
+• Simplifies home management with features for organization 
+and task tracking.
+• Impact: Increased household task efficiency by 30%, with 95% 
+of users reporting improved home management and 
+organization within the first month of use.
+Sidekick
+• A booking platform with a service fee model to enhance 
+offerings and expand the catalog.
+• Impact: Facilitated 1,000+ bookings monthly and increased 
+user retention by 20%.
+Truth or dare
+• Party and group game for friends and family, featuring a spin-
+the-bottle mechanism without requiring physical tools.
+• Impact: Truth or Dare: Achieved 50,000+ active downloads 
+and ranked in the top 10 party games on the App Store within 6 
+months.
+Srunch it Scanner
+•Scans product labels to identify sulfates, parabens, and other 
+ingredients, saving users time and effort in product research.
+• Impact: Scanned 10,000+ products within 6 months of launch 
+and improved user product selection efficiency by 40%.
+Munchh
+• Helps users discover the best nearby restaurants with 
+location-based recommendations.
+• Impact: Drove 15,000+ monthly app sessions by improving 
+restaurant discovery by 25%.
+BAPS Satsang Shikshan Pariksha
+• Dedicated app for Satsangis preparing for Satsang Shikshan 
+Pariksha exams.
+• Impact: Helped 5,000+ users prepare for exams with a 95% 
+user satisfaction rate.
+Tabinsta
+• Online table booking and ordering app for restaurants.
+• Impact: Reduced booking errors by 20%.
+Bazaar bit
+• Platform for selling products like furniture and home decor 
+accessories.
+• Impact: Facilitated the sale of 1,500+ products within the first 
+quarter.
+mCORE18
+• Educational app developed in association with the American 
+Academy of Orthopedic Surgeons (AAOS).
+• Impact: Supported over 1,000 medical professionals in 
+continuing education and resource access.
+Rent Always Paid
+• Comprehensive property management app for landlords and 
+tenants to list and book properties with detailed feature 
+descriptions.
+• Impact: Listed 500+ properties within 2 months and improved 
+tenant-landlord interaction efficiency by 35%.
+MindSupply
+• Mindfulness app combining music, meditation, artwork, and 
+poetry for a virtual wellness retreat experience.
+• Impact: MindSupply: Attracted 20,000+ users and maintained 
+a 4.6-star App Store rating, boosting user retention by 25%.
+Doublehand(Game)
+• Multiplayer card game for 4 players with scalable servers. 
+Features include room creation, WhatsApp sharing, and single-
+player mode to practice.
+• Impact: Garnered 15,000+ players worldwide and maintained 
+98% server uptime.
+Stick Mustache Man(Game)
+• 2D arcade-style game developed using SpriteKit.
+• Impact: Achieved 10,000 downloads in 3 months and featured 
+in “New & Noteworthy” games on the App Store.
