@@ -41,21 +41,59 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     return f"""
-Extract the following from the resume and respond ONLY with JSON: name, contact, education, skills, experience, projects.
+You are an intelligent resume parser. Extract all relevant structured information from the following resume. 
+Respond ONLY in well-formatted JSON. Include as many relevant fields as found, such as (but not limited to):
+
+- name
+- contact (email, phone, LinkedIn, GitHub, Skype, etc.)
+- summary/profile
+- date of birth, gender, nationality
+- education (include degree, university, dates, location)
+- skills (grouped by type if possible: programming, tools, soft skills, etc.)
+- certifications (with issuing org and date)
+- experience (include job title, company, location, dates, bullet points)
+- projects (with tools/tech used, links if available, and impact)
+- languages (spoken/written)
+- interests
+- links (GitHub repos, Power BI dashboards, apps, portfolios, certificates, etc.)
+- publications or achievements
+- apps built (with App Store/Play Store links if given)
 
 Resume:
 {resume_text}
 
-Output:
+Respond only in this JSON format:
 {{
-  "name": "Full Name",
-  "contact": "Email, Phone, LinkedIn, etc.",
-  "education": ["..."],
-  "skills": "skill1, skill2, ...",
-  "experience": ["..."],
-  "projects": ["..."]
+  "name": "...",
+  "contact": {{
+    "email": "...",
+    "phone": "...",
+    "linkedin": "...",
+    "github": "...",
+    ...
+  }},
+  "summary": "...",
+  "dob": "...",
+  "gender": "...",
+  "nationality": "...",
+  "education": [...],
+  "skills": {{
+    "programming_languages": [...],
+    "tools": [...],
+    "soft_skills": [...],
+    ...
+  }},
+  "certifications": [...],
+  "experience": [...],
+  "projects": [...],
+  "languages": [...],
+  "interests": [...],
+  "links": [...],
+  "apps_built": [...],
+  "achievements": [...]
 }}
 """
+
 
 
 def clean_llm_output(text_output):
