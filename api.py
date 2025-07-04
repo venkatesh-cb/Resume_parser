@@ -61,37 +61,38 @@ Respond ONLY in well-formatted JSON. Include as many relevant fields as found in
 Resume:
 {resume_text}
 
-Respond back only in JSON format without any additional text.
+Respond back only in JSON format:
+{{
+  "name": "...",
+  "contact": {{
+    "email": "...",
+    "phone": "...",
+    "linkedin": "...",
+    "github": "...",
+    ...
+  }},
+  "summary": "...",
+  "dob": "...",
+  "gender": "...",
+  "nationality": "...",
+  "education": [...],
+  "skills": {{
+    "programming_languages": [...],
+    "tools": [...],
+    "soft_skills": [...],
+    ...
+  }},
+  "certifications": [...],
+  "experience": [...],
+  "projects": [...],
+  "languages": [...],
+  "interests": [...],
+  "links": [...],
+  "apps_built": [...],
+  "achievements": [...]
+}}
 """
-# {{
-#   "name": "...",
-#   "contact": {{
-#     "email": "...",
-#     "phone": "...",
-#     "linkedin": "...",
-#     "github": "...",
-#     ...
-#   }},
-#   "summary": "...",
-#   "dob": "...",
-#   "gender": "...",
-#   "nationality": "...",
-#   "education": [...],
-#   "skills": {{
-#     "programming_languages": [...],
-#     "tools": [...],
-#     "soft_skills": [...],
-#     ...
-#   }},
-#   "certifications": [...],
-#   "experience": [...],
-#   "projects": [...],
-#   "languages": [...],
-#   "interests": [...],
-#   "links": [...],
-#   "apps_built": [...],
-#   "achievements": [...]
-# }}
+
 
 
 
