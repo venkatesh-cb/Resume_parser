@@ -41,34 +41,38 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     return f"""
-You are an intelligent resume parser. Extract all relevant structured information from the following resume text given. 
-Respond ONLY in well-formatted JSON. Include as many relevant fields as found in resume.Example:
+You are a smart resume parser. Extract structured information from the resume text below.
+
+➤ Respond ONLY in valid, compact JSON.  
+➤ Include all fields you find. Omit any that are missing.  
+➤ Use lists for multi-value fields.
+
+Extractable fields:
 - name
-- contact (email, phone, LinkedIn, GitHub, Skype, etc.)
-- summary/profile
-- date of birth, gender, nationality
-- education (include degree, university, dates, location)
-- skills (grouped by type if possible: programming, tools, soft skills includes communication,thinking those types, etc.)
-- certifications (with issuing org and date)
-- experience (include job title, company, location, dates, bullet points)
-- projects (with tools/tech used, links if available, and impact)
-- languages (spoken/written)
+- contact: email, phone, linkedin, github, etc.
+- summary
+- dob, gender, nationality
+- education: degree, institute, location, dates
+- skills: group as programming_languages, tools, soft_skills
+- certifications: title, issuer, date, certificate_link
+- experience: job_title, company, location, dates, bullet_points
+- projects: title, tools, link, impact
+- languages
 - interests
-- links (It is mentioned in the bottom under extracted hyperlinks)
-- publications or achievements
-- apps built (with App Store/Play Store links if given)
+- links (any URLs found)
+- apps_built: name, platform, store_link
+- achievements, publications
 
 Resume:
 {resume_text}
 
-Respond back only in JSON format:
+Respond only with JSON:
 {{
   "name": "...",
   "contact": {{
     "email": "...",
     "phone": "...",
     "linkedin": "...",
-    "github": "...",
     ...
   }},
   "summary": "...",
@@ -79,8 +83,7 @@ Respond back only in JSON format:
   "skills": {{
     "programming_languages": [...],
     "tools": [...],
-    "soft_skills": [...],
-    ...
+    "soft_skills": [...]
   }},
   "certifications": [...],
   "experience": [...],
@@ -89,9 +92,11 @@ Respond back only in JSON format:
   "interests": [...],
   "links": [...],
   "apps_built": [...],
-  "achievements": [...]
+  "achievements": [...],
+  "publications": [...]
 }}
 """
+
 
 
 
