@@ -1,0 +1,109 @@
+{
+    "name": "VENKATESH S",
+    "contact": {
+        "email": "2211venkateshs@gmail.com",
+        "phone": "+91 8861059527",
+        "linkedin": "https://www.linkedin.com/in/venky2211"
+    },
+    "summary": "A highly skilled web developer with expertise in IoT-related projects, AI and ML modeling. Experienced in leading multiple hackathons, demonstrating strong problem-solving and leadership skills in fast-paced, collaborative environments. Known for adaptability, creativity, and a keen eye for detail, driving success in both technical and creative endeavors. Passionate about learning and applying emerging technologies to real-world challenges.",
+    "dob": null,
+    "gender": null,
+    "nationality": "Indian",
+    "education": [
+        {
+            "degree": "Bachelor of Technology, Computer Science - Artificial intelligence and Machine learning",
+            "institute": "REVA University",
+            "location": "Bangalore, Karnataka, India",
+            "dates": "October 2026"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "C",
+            "Java",
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "DBMS (SQL, MongoDB)",
+            "React",
+            "Node.js",
+            "ML and DL algorithms"
+        ],
+        "tools": [],
+        "soft_skills": [
+            "Teamwork",
+            "Critical Thinking",
+            "Communication",
+            "Leadership",
+            "Time Management"
+        ]
+    },
+    "certifications": [],
+    "experience": [
+        {
+            "job_title": "Infosys Springboard Project Intern",
+            "company": null,
+            "location": null,
+            "dates": [
+                "Sep 2024",
+                "Dec 2024"
+            ],
+            "bullet_points": [
+                "Gained hands-on experience in website design and development under expert mentorship.",
+                "Worked with Angular for front-end development and Node.js for backend."
+            ]
+        },
+        {
+            "job_title": "SkillCraft Project Intern",
+            "company": null,
+            "location": null,
+            "dates": [
+                "Oct 2024",
+                "Nov 2024"
+            ],
+            "bullet_points": [
+                "Machine Learning Developer - Developed and trained ML models for predictive analytics.",
+                "Gained experience in model optimization and data preprocessing."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "AI-Powered Debate Assistant",
+            "tools": [
+                "local LLM",
+                "speech recognition"
+            ],
+            "link": null,
+            "impact": null
+        },
+        {
+            "title": "Educational Consultancy Website",
+            "tools": [
+                "Angular (frontend)",
+                "Spring Boot (backend)",
+                "role-based access"
+            ],
+            "link": null,
+            "impact": null
+        },
+        {
+            "title": "ML Projects",
+            "tools": [
+                "supervised models (spam detection, clustering)",
+                "unsupervised models (prediction tasks)"
+            ],
+            "link": null,
+            "impact": null
+        }
+    ],
+    "languages": [],
+    "interests": [],
+    "links": [
+        "https://www.linkedin.com/in/venky2211"
+    ],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}

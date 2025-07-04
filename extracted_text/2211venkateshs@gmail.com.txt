@@ -1,0 +1,55 @@
+VENKATESH S
+Vijaynagar, Bangalore, Karnataka | +91 8861059527
+2211venkateshs@gmail.com | https://www.linkedin.com/in/venky2211
+PROFESSIONAL SUMMARY
+A highly skilled web developer with expertise in IoT-related projects, AI and ML modeling. Experienced in leading
+multiple hackathons, demonstrating strong problem-solving and leadership skills in fast-paced, collaborative
+environments. Known for adaptability, creativity, and a keen eye for detail, driving success in both technical and creative
+endeavors. Passionate about learning and applying emerging technologies to real-world challenges.
+REVA University
+Bachelor of Technology, Computer Science - Artificial intelligence and Machine learning 
+October 2026
+Related Coursework: Database Systems, Computer Science, Operating System, theory of computation, Computer
+structure and architecture.
+GPA: 9.6/10.0 (Ongoing)
+EDUCATION
+SKILLS
+Hard Skills: 
+Python, C, Java, JavaScript, CSS, HTML
+DBMS (SQL, MongoDB)
+Data Structures and Algorithms
+React and Node.js
+ML and DL algorithms
+Cultural Coordinator, REVA Student Council – Led and managed university-level cultural events and fests.
+Cultural Coordinator, FACIT Department – Organized departmental cultural activities and student engagement
+programs.
+Program Committee Executive, Hackathon & Coding Club – Managed events and mentored peers.
+Hackathon Organizer – Helped conduct Haccverse'25, national-level hackathons end-to-end and many other
+hackathon.
+RELEVANT EXPERIENCE
+Infosys Springboard Project Intern (Sep 2024 - Dec 2024)
+Gained hands-on experience in website design and development under expert mentorship
+Worked with Angular for front-end development and Node.js for backend
+ADDITIONAL EXPERIENCE
+SkillCraft Project Intern (Oct 2024 - Nov 2024)
+Machine Learning Developer - Developed and trained ML models for predictive analytics
+Gained experience in model optimization and data preprocessing
+Skill Development Course (June 2023)
+Successfully completed a Full Stack Development course using Python from Indian Tech-Keys
+Earned a Certificate of Excellence for outstanding performance
+PROJECTS
+AI-Powered Debate Assistant – Built a live gamified debate tool using local LLM and speech recognition.
+Educational Consultancy Website – Developed using Angular (frontend) and Spring Boot (backend) with role-
+based access.
+ML Projects – Implemented supervised and unsupervised models like spam detection, clustering and prediction
+tasks.
+Soft Skills:
+Teamwork
+Critical Thinking
+Communication
+Leadership
+Time Management
+
+
+Extracted Hyperlinks:
+[1] https://www.linkedin.com/in/venky2211 — https://www.linkedin.com/in/venky2211/

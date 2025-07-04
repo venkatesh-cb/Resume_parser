@@ -3,14 +3,15 @@
 import requests
 import os
 import json
-import logging
+# import logging
+import datetime
 
 # Configure the logging module
-logging.basicConfig(
-    level=logging.INFO,  # Set the minimum level of messages to log
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
+# logging.basicConfig(
+#     level=logging.INFO,  # Set the minimum level of messages to log
+#     format='%(asctime)s - %(levelname)s - %(message)s',
+#     datefmt='%Y-%m-%d %H:%M:%S'
+# )
 # --- Configuration ---
 # Replace with your EC2 instance's Public IPv4 address
 SERVER_URL = "http://13.127.97.49:8000/parse-resume/"
@@ -37,6 +38,7 @@ def main():
     for filename in os.listdir(TEXT_DIR):
         if filename.endswith(".txt"):
             text_file_path = os.path.join(TEXT_DIR, filename)
+            print(datetime.datetime.now())
             print(f"\n--- Processing: {filename} ---")
 
             with open(text_file_path, 'r', encoding='utf-8') as f:
@@ -56,20 +58,12 @@ def main():
                 print(f"Successfully parsed and saved to {output_path}")
             else:
                 print(f"Failed to parse {filename}")
-
-# if __name__ == "__main__":
-#     if "43.205.128.207" in SERVER_URL:
-#         print("ERROR: Please update the SERVER_URL in client.py with your EC2 instance's public IP address.")
-#     else:
-#         # You can still use your pdf_parser.py to generate the text files first
-#         print("Assuming text files are already in the 'extracted_text' folder.")
-#         main()
+        print(datetime.datetime.now())
 
 # The corrected and simplified final block
 if __name__ == "__main__":
     # This now directly calls your main function without any checks.
     print("Starting client to process files...")
-    logging.info("Client started. Processing files in 'extracted_text' directory.")
+    # logging.info("Client started. Processing files in 'extracted_text' directory.")
     main()
-    logging.info("Client finished processing files.")
-    
+    # logging.info("Client finished processing files.")
