@@ -1,0 +1,48 @@
+Hitesh Sharma
+hiteshsharma73800@gmail.com |  +91 7380019578
+LinkedIn |  GitHub
+Key Skills
+Analytical Tools: Power BI, Advanced Excel
+Programming Languages: SQL, Python (Pandas, NumPy)
+Database: MySQL, SSMS
+Data Analytics & Visualization: Data Preparation, Data Modeling, Data Visualization, Business Statistics
+Projects
+Hospitality Business Analysis  - Presenting Insights to AtliQ Grands  Project Link
+[Power BI | Excel]
+Feb 2025 - Feb 2025
+Built an interactive Power BI dashboard analyzing market share, revenue trends, and booking patterns across 4 cities
+using 3 months of hotel data..
+Developed KPI dashboards, enabling the Revenue Team to project a 20% recovery in market share within a month.
+Suggested pricing strategies, resulting in a 15% expected increase in bookings.
+Business Insights 360  - Brick & Mortar and Ecommerce  Project Link
+[Power BI | SQL | Excel | DAX]
+Jan 2025 - Jan 2025
+Developed a Power BI dashboard to analyze sales, finance, marketing, and supply chain performance for AtliQ
+Hardware using SQL and Excel.
+Created interactive P&L reports and customer segmentation models, enhancing decision-making for 5 departments.
+Optimized DAX calculations, improving query performance by 5% and reducing storage usage by 30%.
+Implemented forecasting models, leading to a 10% projected revenue increase and 20% cost savings.
+Customer & Market Sales Performance Analysis  - Sales & Market Analytics  Project Link
+[Excel | Pivot Table | Power Query]
+Jan 2025 - Jan 2025
+Built an Excel dashboard to track customer performance and market trends, analyzing $598.9M in total sales.
+Segmented top retailers, highlighting Amazon (218.87% growth) and AtliQ Exclusive (345.77% growth) for strategy
+optimization.
+Examined regional market performance, identifying gaps in India ($161.3M) and USA ($87.8M).
+Provided insights for sales strategies, addressing a -8.40% deviation from market targets.
+Certifications
+Excel : Mother Of Business Intelligence -  Certification Link 
+Issued by: Codebasics 
+  Issued on: 08 January 2025 
+Get Job Ready : Power BI Data Analytics For All Levels 3.0 -  Certification Link 
+Issued by: Codebasics 
+  Issued on: 24 January 2025 
+Education
+Lyallpur Khalsa College
+Jalandhar
+Bachelor of Science (BSc) in IT  - DBMS, Descriptive Statistics, Programming & Data Structures
+CGPA - 7.4
+Sep 2021 - Jun 2024
+Interests
+Love watching Think School's business case studies. Link
+Listening to DataCamp's DataFramed podcasts. Link
