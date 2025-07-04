@@ -2,64 +2,140 @@
     "name": "Hitesh Sharma",
     "contact": {
         "email": "hiteshsharma73800@gmail.com",
-        "phone": "+91 7380019578"
+        "phone": "+91 7380019578",
+        "linkedin": "linkedin.com/in/hiteshsharma18/",
+        "github": "github.com/hiteshere18"
     },
+    "summary": "",
+    "dob": "",
+    "gender": "",
+    "nationality": "",
     "education": [
         {
             "degree": "Bachelor of Science (BSc)",
             "major": "IT",
-            "institution": "Lyallpur Khalsa College",
-            "city": "Jalandhar",
-            "yearsAttended": "Sep 2021 - Jun 2024",
+            "university": "Lyallpur Khalsa College",
+            "location": "Jalandhar",
+            "dates": "Sep 2021 - Jun 2024",
             "cgpa": "7.4"
         }
     ],
-    "skills": [
-        "Power BI",
-        "Advanced Excel",
-        "SQL",
-        "Python (Pandas, NumPy)",
-        "MySQL",
-        "SSMS",
-        "Data Preparation",
-        "Data Modeling",
-        "Data Visualization",
-        "Business Statistics"
+    "skills": {
+        "programming_languages": [
+            {
+                "name": "SQL",
+                "proficiency": "Expert"
+            },
+            {
+                "name": "Python",
+                "proficiency": "Intermediate",
+                "tools": [
+                    {
+                        "name": "Pandas",
+                        "proficiency": "Intermediate"
+                    },
+                    {
+                        "name": "NumPy",
+                        "proficiency": "Intermediate"
+                    }
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "Power BI",
+                "proficiency": "Expert"
+            },
+            {
+                "name": "Advanced Excel",
+                "proficiency": "Expert"
+            },
+            {
+                "name": "MySQL",
+                "proficiency": "Intermediate"
+            },
+            {
+                "name": "SSMS",
+                "proficiency": "Intermediate"
+            }
+        ],
+        "soft_skills": [
+            "Data Analytics",
+            "Visualization",
+            "Business Statistics"
+        ]
+    },
+    "certifications": [
+        {
+            "name": "Mother Of Business Intelligence",
+            "issuing_org": "Codebasics",
+            "issue_date": "08 January 2025"
+        },
+        {
+            "name": "Power BI Data Analytics For All Levels 3.0",
+            "issuing_org": "Codebasics",
+            "issue_date": "24 January 2025"
+        }
     ],
     "experience": [],
     "projects": [
         {
             "title": "Hospitality Business Analysis",
-            "duration": "Feb 2025 - Feb 2025",
-            "technologies": [
+            "company": "",
+            "location": "",
+            "dates": "Feb 2025 - Feb 2025",
+            "description": [
+                "Built an interactive Power BI dashboard analyzing market share, revenue trends, and booking patterns across 4 cities",
+                "Developed KPI dashboards enabling the Revenue Team to project a 20% recovery in market share within a month",
+                "Suggested pricing strategies, resulting in a 15% expected increase in bookings"
+            ],
+            "tech_used": [
                 "Power BI",
                 "Excel"
-            ],
-            "description": "Built an interactive Power BI dashboard analyzing market share, revenue trends, and booking patterns across 4 cities using 3 months of hotel data...",
-            "impact": "Enabled the Revenue Team to project a 20% recovery in market share within a month and suggested pricing strategies resulting in a 15% expected increase in bookings."
+            ]
         },
         {
             "title": "Business Insights 360",
-            "duration": "Jan 2025 - Jan 2025",
-            "technologies": [
+            "company": "AtliQ",
+            "location": "",
+            "dates": "Jan 2025 - Jan 2025",
+            "description": [
+                "Developed a Power BI dashboard to analyze sales, finance, marketing, and supply chain performance for AtliQ Hardware",
+                "Created interactive P&L reports and customer segmentation models, enhancing decision-making for 5 departments",
+                "Optimized DAX calculations, improving query performance by 5% and reducing storage usage by 30%",
+                "Implemented forecasting models, leading to a 10% projected revenue increase and 20% cost savings"
+            ],
+            "tech_used": [
                 "Power BI",
                 "SQL",
                 "Excel",
                 "DAX"
-            ],
-            "description": "Developed a Power BI dashboard to analyze sales, finance, marketing, and supply chain performance for AtliQ Hardware using SQL and Excel...",
-            "impact": "Implemented forecasting models, leading to a 10% projected revenue increase and 20% cost savings."
+            ]
         },
         {
             "title": "Customer & Market Sales Performance Analysis",
-            "duration": "Jan 2025 - Jan 2025",
-            "technologies": [
+            "company": "",
+            "location": "",
+            "dates": "Jan 2025 - Jan 2025",
+            "description": [
+                "Built an Excel dashboard to track customer performance and market trends, analyzing $598.9M in total sales",
+                "Segmented top retailers, highlighting Amazon (218.87% growth) and AtliQ Exclusive (345.77% growth) for strategy optimization",
+                "Examined regional market performance, identifying gaps in India ($161.3M) and USA ($87.8M)",
+                "Provided insights for sales strategies, addressing a -8.40% deviation from market targets"
+            ],
+            "tech_used": [
                 "Excel",
                 "Pivot Table",
                 "Power Query"
-            ],
-            "description": "Built an Excel dashboard to track customer performance and market trends, analyzing $598.9M in total sales...",
-            "impact": "Provided insights for sales strategies, addressing a -8.40% deviation from market targets."
+            ]
         }
-    ]
+    ],
+    "languages": [],
+    "interests": [
+        "Think School's business case studies",
+        "DataCamp's DataFramed podcasts"
+    ],
+    "links": [],
+    "apps_built": [],
+    "achievements": []
 }

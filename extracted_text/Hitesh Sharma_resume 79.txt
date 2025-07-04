@@ -1,13 +1,13 @@
 Hitesh Sharma
-hiteshsharma73800@gmail.com (mailto:hiteshsharma73800@gmail.com) |  +91 7380019578
-Link (https://www.youtube.com/playlist?list=PLjgj6kdf_snbWS6Ltl66CIIBNqVnOL_NR) (https://www.youtube.com/playlist?list=PLGwmAEmjn4fmL_kCTOR-N4fXOlXvLa8dG)edIn (https://www.linkedin.com/in/hiteshsharma18/) |  GitHub (https://github.com/hiteshere18)
+hiteshsharma73800@gmail.com |  +91 7380019578
+LinkedIn |  GitHub
 Key Skills
 Analytical Tools: Power BI, Advanced Excel
 Programming Languages: SQL, Python (Pandas, NumPy)
 Database: MySQL, SSMS
 Data Analytics & Visualization: Data Preparation, Data Modeling, Data Visualization, Business Statistics
 Projects
-Hospitality Business Analysis  - Presenting Insights to AtliQ Grands  Project Link (https://github.com/hiteshere18/Excel-Sales-Analytics) (https://app.powerbi.com/view?r=eyJrIjoiMzExNzJhZGMtN2M5OS00ZWZhLTgxYmItZDgyYzA1ZGEzNzk5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9) (https://app.powerbi.com/view?r=eyJrIjoiZTc4OWFiOGEtOTJkZS00MDM4LWI0NzYtMThmYzgwOWZkMTA3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+Hospitality Business Analysis  - Presenting Insights to AtliQ Grands  Project Link
 [Power BI | Excel]
 Feb 2025 - Feb 2025
 Built an interactive Power BI dashboard analyzing market share, revenue trends, and booking patterns across 4 cities
@@ -31,7 +31,7 @@ optimization.
 Examined regional market performance, identifying gaps in India ($161.3M) and USA ($87.8M).
 Provided insights for sales strategies, addressing a -8.40% deviation from market targets.
 Certifications
-Excel : Mother Of Business Intelligence -  Certification Link (https://codebasics.io/certificate/CB-49-498232) (https://codebasics.io/certificate/CB-51-498232) 
+Excel : Mother Of Business Intelligence -  Certification Link 
 Issued by: Codebasics 
   Issued on: 08 January 2025 
 Get Job Ready : Power BI Data Analytics For All Levels 3.0 -  Certification Link 
@@ -47,3 +47,15 @@ Interests
 Love watching Think School's business case studies. Link
 Listening to DataCamp's DataFramed podcasts. Link
 
+
+Extracted Hyperlinks:
+[1] hiteshsharma73800@gmail.com — mailto:hiteshsharma73800@gmail.com
+[2] LinkedIn — https://www.linkedin.com/in/hiteshsharma18/
+[3] GitHub — https://github.com/hiteshere18
+[4] Project Link — https://app.powerbi.com/view?r=eyJrIjoiZTc4OWFiOGEtOTJkZS00MDM4LWI0NzYtMThmYzgwOWZkMTA3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+[5] Project Link — https://app.powerbi.com/view?r=eyJrIjoiMzExNzJhZGMtN2M5OS00ZWZhLTgxYmItZDgyYzA1ZGEzNzk5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+[6] Project Link — https://github.com/hiteshere18/Excel-Sales-Analytics
+[7] Certification Link — https://codebasics.io/certificate/CB-51-498232
+[8] Certification Link — https://codebasics.io/certificate/CB-49-498232
+[9] Link — https://www.youtube.com/playlist?list=PLGwmAEmjn4fmL_kCTOR-N4fXOlXvLa8dG
+[10] Link — https://www.youtube.com/playlist?list=PLjgj6kdf_snbWS6Ltl66CIIBNqVnOL_NR

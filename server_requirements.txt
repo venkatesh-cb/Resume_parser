@@ -5,6 +5,7 @@ torch
 accelerate
 huggingface_hub
 re
+pdfreader
 #server_requirements.txt
 fastapi
 uvicorn[standard]

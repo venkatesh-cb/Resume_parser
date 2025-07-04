@@ -41,58 +41,59 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     return f"""
-You are an intelligent resume parser. Extract all relevant structured information from the following resume. 
-Respond ONLY in well-formatted JSON. Include as many relevant fields as found, such as (but not limited to):
-
+You are an intelligent resume parser. Extract all relevant structured information from the following resume text given. 
+Respond ONLY in well-formatted JSON. Include as many relevant fields as found in resume:
+Example:
 - name
 - contact (email, phone, LinkedIn, GitHub, Skype, etc.)
 - summary/profile
 - date of birth, gender, nationality
 - education (include degree, university, dates, location)
-- skills (grouped by type if possible: programming, tools, soft skills, etc.)
+- skills (grouped by type if possible: programming, tools, soft skills includes communication,thinking those types, etc.)
 - certifications (with issuing org and date)
 - experience (include job title, company, location, dates, bullet points)
 - projects (with tools/tech used, links if available, and impact)
 - languages (spoken/written)
 - interests
-- links (GitHub repos, Power BI dashboards, apps, portfolios, certificates, etc.)
+- links (It is mentioned in the bottom under extracted hyperlinks)
 - publications or achievements
 - apps built (with App Store/Play Store links if given)
 
 Resume:
 {resume_text}
 
-Respond only in this JSON format:
-{{
-  "name": "...",
-  "contact": {{
-    "email": "...",
-    "phone": "...",
-    "linkedin": "...",
-    "github": "...",
-    ...
-  }},
-  "summary": "...",
-  "dob": "...",
-  "gender": "...",
-  "nationality": "...",
-  "education": [...],
-  "skills": {{
-    "programming_languages": [...],
-    "tools": [...],
-    "soft_skills": [...],
-    ...
-  }},
-  "certifications": [...],
-  "experience": [...],
-  "projects": [...],
-  "languages": [...],
-  "interests": [...],
-  "links": [...],
-  "apps_built": [...],
-  "achievements": [...]
-}}
+Respond only in JSON format.
+
 """
+# {{
+#   "name": "...",
+#   "contact": {{
+#     "email": "...",
+#     "phone": "...",
+#     "linkedin": "...",
+#     "github": "...",
+#     ...
+#   }},
+#   "summary": "...",
+#   "dob": "...",
+#   "gender": "...",
+#   "nationality": "...",
+#   "education": [...],
+#   "skills": {{
+#     "programming_languages": [...],
+#     "tools": [...],
+#     "soft_skills": [...],
+#     ...
+#   }},
+#   "certifications": [...],
+#   "experience": [...],
+#   "projects": [...],
+#   "languages": [...],
+#   "interests": [...],
+#   "links": [...],
+#   "apps_built": [...],
+#   "achievements": [...]
+# }}
 
 
 

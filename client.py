@@ -3,17 +3,24 @@
 import requests
 import os
 import json
+import logging
 
+# Configure the logging module
+logging.basicConfig(
+    level=logging.INFO,  # Set the minimum level of messages to log
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 # --- Configuration ---
 # Replace with your EC2 instance's Public IPv4 address
-SERVER_URL = "http://13.235.18.230:8000/parse-resume/"
+SERVER_URL = "http://13.127.97.49:8000/parse-resume/"
 TEXT_DIR = 'extracted_text'
 OUTPUT_DIR = 'parsed_resumes'
 
 def call_parser_api(resume_text):
     """Sends the resume text to the server and gets the JSON back."""
     try:
-        response = requests.post(SERVER_URL, json={"resume_text": resume_text}, timeout=1200) # 5-minute timeout
+        response = requests.post(SERVER_URL, json={"resume_text": resume_text}, timeout=3600) # 60-minute timeout
         response.raise_for_status()  # Raises an exception for bad status codes (4xx or 5xx)
         return response.json()
     except requests.exceptions.RequestException as e:
@@ -62,4 +69,7 @@ def main():
 if __name__ == "__main__":
     # This now directly calls your main function without any checks.
     print("Starting client to process files...")
+    logging.info("Client started. Processing files in 'extracted_text' directory.")
     main()
+    logging.info("Client finished processing files.")
+    
