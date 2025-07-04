@@ -40,41 +40,23 @@ def download_model():
             raise RuntimeError(f"Failed to download model: {e}")
 
 def get_llm_prompt(resume_text):
-    """Constructs the detailed prompt for the LLM."""
-    # Ensure this section is very clear and strict.
     return f"""
-**Task**: Extract structured information from the resume text below.
-**Strict Instruction**: You MUST ONLY return a single, complete, and valid JSON object. Do NOT include any additional text, explanations, or Markdown code block delimiters (like ```json or ```).
-The JSON object should have the following keys (ensure these match exactly what you want):
-{
-    {
-  "name": "Full Name",
-  "email": "email@example.com",
-  "phone": "123-456-7890",
-  "summary": "Professional summary...",
-  "skills": ["Skill1", "Skill2"],
-  "experience": [
-    {{
-      "title": "Job Title",
-      "company": "Company Name",
-      "duration": "Start Date - End Date",
-      "description": "Job responsibilities and achievements."
-    }}
-  ],
-  "education": [
-    {{
-      "degree": "Degree Name",
-      "university": "University Name",
-      "graduation_year": "Year"
-    }}
-  ]
-  }
-}
+Extract the following from the resume and respond ONLY with JSON: name, contact, education, skills, experience, projects.
 
-**Resume Text**:
+Resume:
 {resume_text}
 
+Output:
+{{
+  "name": "Full Name",
+  "contact": "Email, Phone, LinkedIn, etc.",
+  "education": ["..."],
+  "skills": "skill1, skill2, ...",
+  "experience": ["..."],
+  "projects": ["..."]
+}}
 """
+
 
 def clean_llm_output(text_output):
     """
