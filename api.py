@@ -42,8 +42,7 @@ def download_model():
 def get_llm_prompt(resume_text):
     return f"""
 You are an intelligent resume parser. Extract all relevant structured information from the following resume text given. 
-Respond ONLY in well-formatted JSON. Include as many relevant fields as found in resume:
-Example:
+Respond ONLY in well-formatted JSON. Include as many relevant fields as found in resume.Example:
 - name
 - contact (email, phone, LinkedIn, GitHub, Skype, etc.)
 - summary/profile
@@ -62,8 +61,7 @@ Example:
 Resume:
 {resume_text}
 
-Respond only in JSON format.
-
+Respond back only in JSON format without any additional text.
 """
 # {{
 #   "name": "...",
