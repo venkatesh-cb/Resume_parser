@@ -40,48 +40,36 @@ def download_model():
             raise RuntimeError(f"Failed to download model: {e}")
 
 def get_llm_prompt(resume_text):
-    """
-    Constructs a more forceful and specific prompt for the LLM.
-    """
     return f"""
-**Task**: From the resume text below, extract structured information and return ONLY a valid JSON object.
-**Instructions**:
-1.  Extract all available information for the keys: name, contact, education, skills, experience, projects.
-2.  Use the exact JSON structure provided in the format description.
-3.  If information is missing, use null.
-4.  Recognize alternate section names (e.g., "Work History" for "Experience").
-5.  Your entire response must be a single JSON object. Start immediately with `{{` and end with `}}`. Do not add any introductory text, backticks, or explanations.
+Extract the following fields from the resume below and return only a JSON object: name, contact, education, skills, experience, projects. 
+If any are missing, use null. Do not add explanations.
 
-**Output Format**:
-```json
+Resume:
+{resume_text}
+
+Format:
 {{
   "name": "Full Name",
-  "contact": {{...}},
-  "education": [{{...}}],
-  "skills": {{...}},
-  "experience": [{{...}}],
-  "projects": [{{...}}]
+  "contact": "...",
+  "education": [...],
+  "skills": "...",
+  "experience": [...],
+  "projects": [...]
 }}
-{resume_text}
 """
 
-def clean_llm_output(text_output):
-    """
-    A more robust function to find and parse the JSON block from the LLM's raw text.
-    It uses regular expressions to find the JSON object.
-    """
-    match = re.search(r'{.*}', text_output, re.DOTALL)
 
+def clean_llm_output(text_output):
+    match = re.search(r'{(?:[^{}]|(?R))*}', text_output, re.DOTALL)  # nested-safe JSON
     if match:
         json_string = match.group(0)
         try:
             return json.loads(json_string)
         except json.JSONDecodeError as e:
-            print(f"Error: Found a block that looks like JSON, but failed to decode. Error: {e}")
-            print(f"--- Block Content ---\n{json_string}\n---------------------")
+            print(f"JSON parsing error: {e}")
             return None
     else:
-        print("Warning: Could not find a valid JSON block using regex.")
+        print("No JSON found in output.")
         return None
 
 # --- API Lifespan Events ---
@@ -118,6 +106,7 @@ async def parse_resume(request: ResumeRequest):
         output = llm(prompt, max_tokens=2048, stop=["```"], echo=False)
         raw_text = output["choices"][0]["text"]
         print("Received raw output from LLM. Parsing JSON...")
+        print(f"--- RAW LLM OUTPUT ---\n{raw_text}\n----------------------")
 
         parsed_json = clean_llm_output(raw_text)
 
@@ -126,11 +115,15 @@ async def parse_resume(request: ResumeRequest):
             return parsed_json
         else:
             print(f"--- FAILED RAW OUTPUT ---\n{raw_text}\n-------------------------")
+            with open("failed_output.txt", "w") as f:
+                f.write(raw_text)
             raise HTTPException(status_code=500, detail="Server failed to parse a valid JSON response from the model.")
 
     except Exception as e:
         print(f"An error occurred during LLM processing: {e}")
         raise HTTPException(status_code=500, detail=f"An error occurred during LLM processing: {e}")
+    
+
 
 @app.get("/")
 def read_root():
