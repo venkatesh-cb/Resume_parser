@@ -52,14 +52,30 @@ if uploaded_file:
                     
                     st.success("✅ Resume parsed successfully!")
 
+                    def render_json_recursively(obj, level=1):
+                        if isinstance(obj, dict):
+                            for key, value in obj.items():
+                                if level == 1:
+                                    st.markdown(f"## {key}")
+                                elif level == 2:
+                                    st.markdown(f"### {key}")
+                                elif level == 3:
+                                    st.markdown(f"**{key}**")
+                                else:
+                                    st.markdown(f"- **{key}**")
+
+                                render_json_recursively(value, level + 1)
+
+                        elif isinstance(obj, list):
+                            for item in obj:
+                                render_json_recursively(item, level)
+
+                        elif isinstance(obj, str):
+                            st.markdown(f"{obj}")
+                        
                     st.subheader("📌 Parsed Resume Data")
-                    for section, content in parsed_data.items():
-                        st.markdown(f"### {section}")
-                        if isinstance(content, list):
-                            for item in content:
-                                st.markdown(f"- {item}")
-                        else:
-                            st.markdown(f"{content}")
+                    render_json_recursively(parsed_data)
+
 
                 else:
                     st.error("❌ Failed to parse resume using LLM.")

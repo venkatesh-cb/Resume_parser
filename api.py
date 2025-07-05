@@ -52,8 +52,8 @@ Extractable fields:
 - education: degree, institute, location, dates, cgpa
 - skills: group as programming_languages, tools, soft_skills
 - certifications: title, issuer, date, certificate_link
-- experience: job_title, company, location, dates, bullet_points
-- projects: title, tools, link, impact
+- experience: job_title, company, location, dates, description, tools
+- projects: title, tools, link, impact, description
 - languages
 - interests
 - links (any URLs found)

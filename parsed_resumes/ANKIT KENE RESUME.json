@@ -1,0 +1,74 @@
+{
+    "name": "Ankit Vilas Kene",
+    "contact": {
+        "email": "keneankit01@gmail.com",
+        "phone": "+91 9405526018",
+        "linkedin": "https://www.linkedin.com/in/keneankit01/",
+        "github": "https://github.com/lazyDev-ak"
+    },
+    "summary": "Over 2 years of experience in Full Stack Development, specializing in backend technologies like Java Spring Boot, Hibernate. Proficient in cloud platforms like AWS EC2 and GCP, with a focus on designing and deploying robust, scalable web applications. Expertise in database management and integration with PostgreSQL and Microsoft SQL Server. Skilled in building flexible and secure architectures for various applications, including health management systems, payments systems. Experience in working with cross-functional teams to deliver high-quality products on time. Adept at quickly learning and adopting new technologies to improve development workflows and enhance application performance.",
+    "dob": null,
+    "gender": null,
+    "nationality": "Maharashtra, India",
+    "education": [
+        {
+            "degree": "B.E IN COMPUTER SCIENCE AND ENGINEERING",
+            "institute": "JAWAHARALAL DARDA INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+            "location": "YAVATMAL",
+            "dates": "2022"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Java",
+            "HTML & CSS",
+            "JavaScript"
+        ],
+        "tools": [
+            "Hibernate",
+            "Maven",
+            "Spring Framework",
+            "Microservices",
+            "ReactJS"
+        ],
+        "soft_skills": [
+            "Agile Methodologies"
+        ]
+    },
+    "certifications": [],
+    "experience": [
+        {
+            "job_title": "JAVA DEVELOPER",
+            "company": "APPYSTACK PRIVATE LIMITED",
+            "location": null,
+            "dates": [
+                "DECEMBER 2022\u2013 JANUARY 2025"
+            ],
+            "bullet_points": [
+                "Developed multiple functionalities for the DocITHealth project, a health management system.",
+                "Ensured the application was designed in accordance with modern UI/UX principles to enhance user experience.",
+                "Implemented a flexible table structure to accommodate new functionalities with minimal changes.",
+                "Worked closely with frontend developers to ensure seamless integration of backend services.",
+                "Collaborated with senior backend developers (5-6 years of experience) to deliver high-quality code and solutions.",
+                "Participated in daily stand-ups, sprint planning, and code reviews to ensure smooth project execution.",
+                "Led a team to successfully complete and deliver the Bharati Payments Application.",
+                "Coordinated with clients to gather and understand project requirements.",
+                "Integrated ICICI Bank's payment gateway into the application for secure transaction processing.",
+                "Implemented Spring Security 6 for robust security and user authentication mechanisms.",
+                "Managed project timelines, resource allocation, and ensured high-quality delivery in alignment with client expectations.",
+                "Managed and maintained server infrastructure to ensure high availability and performance.",
+                "Monitored server performance, implemented security protocols, and performed regular backups."
+            ]
+        }
+    ],
+    "projects": [],
+    "languages": [],
+    "interests": [],
+    "links": [
+        "https://www.linkedin.com/in/keneankit01/",
+        "https://github.com/lazyDev-ak"
+    ],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}

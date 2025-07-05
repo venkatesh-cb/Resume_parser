@@ -1,0 +1,65 @@
+Ankit Vilas Kene 
+ Yavatmal Maharashtra | +91 9405526018 | keneankit01@gmail.com | https://www.linkedin.com/in/keneankit01/ 
+| https://github.com/lazyDev-ak 
+Professional Summary 
+• 
+Over 2 years of experience in Full Stack Development, specializing in backend technologies like 
+Java Spring Boot, Hibernate. 
+• 
+Proficient in cloud platforms like AWS EC2 and GCP, with a focus on designing and deploying 
+robust, scalable web applications. 
+• 
+Expertise in database management and integration with PostgreSQL and Microsoft SQL Server. 
+• 
+ Skilled in building flexible and secure architectures for various applications, including health 
+management systems, payments systems. 
+• 
+Experience in working with cross-functional teams to deliver high-quality products on time. 
+• 
+Adept at quickly learning and adopting new technologies to improve development workflows and 
+enhance application performance. 
+Skills  
+Programming Languages: 
+Java, HTML & CSS, JavaScript 
+Databases: 
+SQL 
+Libraries/Frameworks: 
+Hibernate, Maven, Spring Framework, Microservices, ReactJS 
+Version Control: 
+Git 
+Version Control Tools: 
+GitHub, Gitlab, Gitea 
+ 
+Experience 
+JAVA DEVELOPER| APPYSTACK PRIVATE LIMITED| DECEMBER 2022– JANUARY 2025 
+Project: DocITHealth Management System 
+o Developed multiple functionalities for the DocITHealth project, a health management system. 
+o Ensured the application was designed in accordance with modern UI/UX principles to enhance user    
+experience. 
+o Implemented a flexible table structure to accommodate new functionalities with minimal changes. 
+o Worked closely with frontend developers to ensure seamless integration of backend services. 
+o Collaborated with senior backend developers (5-6 years of experience) to deliver high-quality code 
+and solutions. 
+o Agile Methodologies: Participated in daily stand-ups, sprint planning, and code reviews to ensure 
+smooth project execution. 
+Project: Bharati Payments Application 
+o Led a team to successfully complete and deliver the Bharati Payments Application. 
+o Coordinated with clients to gather and understand project requirements. 
+o Integrated ICICI Bank's payment gateway into the application for secure transaction processing. 
+o Implemented Spring Security 6 for robust security and user authentication mechanisms. 
+o Managed project timelines, resource allocation, and ensured high-quality delivery in alignment 
+with client expectations. 
+Page 2 
+ 
+ 
+ 
+Server Administration: 
+o Managed and maintained server infrastructure to ensure high availability and performance. 
+o Monitored server performance, implemented security protocols, and performed regular backups. 
+Education 
+B.E IN COMPUTER SCIENCE AND ENGINEERING | 2022 | JAWAHARALAL DARDA INSTITUTE 
+OF ENGINEERING AND TECHNOLOGY YAVATMAL 
+
+
+Extracted Hyperlinks:
+[1] https://www.linkedin.com/in/keneankit01/ — https://www.linkedin.com/in/keneankit01/
