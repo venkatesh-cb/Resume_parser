@@ -3,18 +3,10 @@
 import requests
 import os
 import json
-# import logging
 import datetime
 
-# Configure the logging module
-# logging.basicConfig(
-#     level=logging.INFO,  # Set the minimum level of messages to log
-#     format='%(asctime)s - %(levelname)s - %(message)s',
-#     datefmt='%Y-%m-%d %H:%M:%S'
-# )
-# --- Configuration ---
 # Replace with your EC2 instance's Public IPv4 address
-SERVER_URL = "http://13.127.97.49:8000/parse-resume/"
+SERVER_URL = "http://13.232.153.155:8000/parse-resume/"
 TEXT_DIR = 'extracted_text'
 OUTPUT_DIR = 'parsed_resumes'
 
@@ -60,10 +52,12 @@ def main():
                 print(f"Failed to parse {filename}")
         print(datetime.datetime.now())
 
+# For streamlit
+def parse_resume_text(resume_text):
+    return call_parser_api(resume_text)
+
 # The corrected and simplified final block
 if __name__ == "__main__":
     # This now directly calls your main function without any checks.
     print("Starting client to process files...")
-    # logging.info("Client started. Processing files in 'extracted_text' directory.")
     main()
-    # logging.info("Client finished processing files.")

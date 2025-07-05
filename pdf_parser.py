@@ -74,6 +74,10 @@ def process_all_resumes(input_dir='resumes', output_dir='extracted_text'):
                 print(f"Warning: No content extracted from '{filename}'.")
     print("✅ All resumes processed.")
 
+# For streamlit
+def extract_single_resume(pdf_path):
+    return extract_text_and_links_from_pdf(pdf_path)
+
 
 if __name__ == '__main__':
     process_all_resumes()

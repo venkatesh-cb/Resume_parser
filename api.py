@@ -10,15 +10,12 @@ import re
 # --- Configuration ---
 # Using a quantized model from TheBloke, a reputable source for GGUF models.
 MODEL_NAME = "TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
-MODEL_FILE = "mistral-7b-instruct-v0.2.Q4_K_M.gguf" # 4-bit quantization, a good balance of size and quality
+MODEL_FILE = "mistral-7b-instruct-v0.2.Q4_K_M.gguf" 
 MODEL_PATH = f"./{MODEL_FILE}"
 
 # Initialize FastAPI app
 app = FastAPI()
-
-# Global variable for the model
 llm = None
-
 # --- Pydantic Models for Request and Response ---
 class ResumeRequest(BaseModel):
     resume_text: str
@@ -52,7 +49,7 @@ Extractable fields:
 - contact: email, phone, linkedin, github, etc.
 - summary
 - dob, gender, nationality
-- education: degree, institute, location, dates
+- education: degree, institute, location, dates, cgpa
 - skills: group as programming_languages, tools, soft_skills
 - certifications: title, issuer, date, certificate_link
 - experience: job_title, company, location, dates, bullet_points
@@ -132,16 +129,16 @@ def clean_llm_output(text_output):
             return json.loads(json_string)
         else:
             print("Warning: Could not find a valid JSON block in the output.")
-            print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
+            print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") 
             return None
     except json.JSONDecodeError as e:
         print(f"Error: Failed to decode the output into JSON. Details: {e}")
-        print(f"Attempted JSON string:\n{json_string}") # Print the string that failed to decode
-        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
+        print(f"Attempted JSON string:\n{json_string}") 
+        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") 
         return None
     except Exception as e:
         print(f"An unexpected error occurred in clean_llm_output: {e}")
-        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") # Print part of output for debugging
+        print(f"Raw LLM Output (first 500 chars): {text_output[:500]}") 
         return None
 
 # --- API Lifespan Events ---
