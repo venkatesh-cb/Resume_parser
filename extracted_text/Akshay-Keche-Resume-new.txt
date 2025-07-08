@@ -1,0 +1,165 @@
+Akshay Keche 
+Front-End Developer 
+ 
+PROFESSIONAL SUMMARY: 
+● Experienced Front-End Developer with 8+ years of expertise in delivering high-
+quality web applications and scalable solutions. 
+● Proficient in web technologies including HTML5, CSS3, SASS, Bootstrap, Tailwind 
+CSS, Material UI, WordPress, jQuery, JavaScript, Angular, and React, with a focus on 
+creating responsive and user-friendly interfaces. 
+● Cross-browser compatibility and mobile-first design principles. 
+● Collaborating with designers, back-end developers, and stakeholders to ensure 
+product requirements are met. 
+● Integrating APIs and Map data in html. 
+● Expertise in responsive design with Flexbox, Grid, and media queries. 
+● Collaborating with designers to transform Figma prototypes into functional UIs. 
+ 
+ 
+KEY SKILLS: 
+● Programming Languages: Angular, React, Next.js 
+● Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, jQuery, Storybook 
+● Frameworks: Bootstrap4, Bootstrap5, Tailwind CSS 
+● CMS: WordPress 
+ 
+ 
+PROFESSIONAL EXPERIENCE: 
+ 
+Project Name: 
+AcmeLeap 
+Technology: 
+HTML5, CSS3, Angular, MongoDB, Typescript 
+Role and 
+Responsibilities: 
+Create folder structure, Develop UI using HTML5, CSS3, Form 
+validation 
+Tools: 
+Jira, Github 
+Team size: 
+06 
+Description: 
+The AcmeLeap web application is designed to enhance the 
+recruitment process for both job 
+seekers and recruiters. It provides a streamlined and efficient 
+platform to improve user 
+experience, optimize recruitment operations, and facilitate 
+communication between candidates 
+and recruiters. Key features include. 
+Project Name: 
+NoBuilders 
+Technology: 
+HTML5, CSS3, Angular, MongoDB, Typescript, EC2 
+Role and 
+Responsibilities: 
+Create folder structure, Develop UI using HTML5, CSS3, Worke 
+on functionality,  create global components 
+Tools: 
+Jira, Github 
+Team size: 
+06 
+Description: 
+This project is a comprehensive solution for real estate 
+crowdfunding, 
+connecting users with investment opportunities in nearby 
+properties and lands. The platform 
+enables users to explore nearby locations, access detailed 
+information about areas, view 
+property rates, and submit specific requirements such as 
+property type, preferred area, budget, 
+and loan needs. 
+A dedicated property listing section allows users to browse and 
+filter properties based on 
+various criteria, such as cost, size, and locality. Each property 
+includes detailed descriptions, and 
+users can express interest or proceed with purchases directly 
+through the platform. 
+The admin panel offers robust management features, including 
+adding new locations and 
+properties, tracking user activities, managing property 
+investments, and generating receipts for 
+transactions. This platform streamlines the property discovery, 
+investment, and management 
+process, making real estate investment accessible and efficient 
+for users and administrators 
+alike. 
+ 
+ 
+Project Name: 
+Productor 
+Technology: 
+HTML5, CSS3, React, Next.js, JavaScript, Formik, Storybook, 
+PostgreSQL, AWS Cognito, EC2 
+Role and 
+Responsibilities: 
+Develop UI using HTML5, CSS3, Tailwind CSS, Material UI 
+Tools: 
+Bitbucket, Jira 
+Team size: 
+06 
+Description: 
+Productor is a comprehensive tool designed to manage and plan 
+the entire project lifecycle efficiently. It leverages Google SSO 
+and AWS Cognito for seamless user authentication, eliminating 
+the need for a traditional signup process. The platform enables 
+users to create and organize multiple portfolios, products, and 
+associated groups, streamlining project management 
+workflows. With its roadmap planning feature, Productor 
+provides a clear and detailed overview of individual product 
+timelines, allowing management to gain valuable insights into 
+the progress of various portfolios. This tool empowers 
+organizations to enhance collaboration, maintain strategic 
+alignment, and achieve greater visibility into their ongoing 
+projects. 
+Project Name: 
+ClearCare 
+Technology: 
+HTML5, CSS3, Tailwind CSS, React, Next.js, JavaScript, Formik, 
+PostgreSQL, AWS Cognito, EC2 
+Role and 
+Responsibilities: 
+Create folder structure, Develop UI using HTML5, CSS3, Worke 
+on functionality,  create global components 
+Tools: 
+Bitbucket, Jira 
+Team size: 
+07 
+Description: 
+Clearcare is a collaborative portal designed for doctors and labs 
+to streamline treatment planning and case management. 
+Doctors can select treatments and specify requirements for 
+labs to design and fulfill. Lab users can view and process these 
+orders based on the detailed specifications provided by doctors, 
+ensuring precision and efficiency. The platform allows doctors to 
+track each case independently, offering full visibility into its 
+progress. Additional features include dynamic invoice 
+generation and printing for seamless billing. The admin portal 
+supports adding treatments with pricing, managing services, 
+onboarding labs, and user management, ensuring the system is 
+adaptable and easy to manage. 
+Project Name: 
+Archimedis 
+Technology: 
+HTML5, CSS3, React, Next.js, JavaScript, Formik 
+Role and 
+Responsibilities: 
+Create folder structure, Develop UI using HTML5, CSS3, Form 
+validation, create global components 
+Tools: 
+Github 
+Team size: 
+06 
+Description: 
+Explore a diverse marketplace of pharmaceutical equipment 
+listings on our platform, offering a comprehensive range from 
+cutting-edge technology to industry-standard machinery. 
+ 
+WORDPRESS PROJECT: 
+• https://codebyte.solutions/ 
+• https://archimedis.io/ 
+• https://www.cloudmoyo.com/ 
+• https://codemithra.com/ 
+• https://www.feelpixel.in/ 
+ 
+
+
+Extracted Hyperlinks:
+[1] https://www.cloudmoyo.com/ — https://www.cloudmoyo.com/

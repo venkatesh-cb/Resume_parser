@@ -1,0 +1,189 @@
+{
+    "name": "Akshay Keche",
+    "contact": {
+        "email": "N/A"
+    },
+    "summary": "Experienced Front-End Developer with 8+ years of expertise in delivering high-quality web applications and scalable solutions. Proficient in web technologies including HTML5, CSS3, SASS, Bootstrap, Tailwind CSS, Material UI, WordPress, jQuery, JavaScript, Angular, and React, with a focus on creating responsive and user-friendly interfaces. Cross-browser compatibility and mobile-first design principles. Collaborating with designers, back-end developers, and stakeholders to ensure product requirements are met. Integrating APIs and Map data in html. Expertise in responsive design with Flexbox, Grid, and media queries. Collaborating with designers to transform Figma prototypes into functional UIs.",
+    "skills": {
+        "hard_skills": [
+            "Angular",
+            "React",
+            "Next.js",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "Bootstrap",
+            "Tailwind CSS",
+            "Material UI",
+            "WordPress",
+            "jQuery",
+            "JavaScript"
+        ],
+        "programming_languages": [
+            "Angular",
+            "React",
+            "Next.js",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "JavaScript"
+        ],
+        "tools": [
+            "Jira",
+            "Github",
+            "Bitbucket",
+            "Jira",
+            "Github",
+            "Bitbucket"
+        ],
+        "soft_skills": [
+            "Collaborating with designers, back-end developers, and stakeholders",
+            "Cross-browser compatibility and mobile-first design principles",
+            "Integrating APIs and Map data in html",
+            "Expertise in responsive design with Flexbox, Grid, and media queries",
+            "Transforming Figma prototypes into functional UIs"
+        ]
+    },
+    "experience": [
+        {
+            "job_title": "N/A",
+            "company": "AcmeLeap",
+            "location": "N/A",
+            "dates": "N/A",
+            "description": "Create folder structure, Develop UI using HTML5, CSS3, Angular, MongoDB, Typescript. Collaborate with designers, back-end developers, and stakeholders to ensure product requirements are met. Integrate APIs and Map data in html. Key features include a streamlined and efficient recruitment platform for job seekers and recruiters. Optimize recruitment operations and facilitate communication between candidates and recruiters.",
+            "tools": [
+                "Jira",
+                "Github"
+            ]
+        },
+        {
+            "job_title": "N/A",
+            "company": "NoBuilders",
+            "location": "N/A",
+            "dates": "N/A",
+            "description": "Create folder structure, Develop UI using HTML5, CSS3, Angular, MongoDB, Typescript, EC2. Collaborate with designers and work on functionality, create global components. Real estate crowdfunding platform enabling users to explore nearby locations, access detailed information about areas, view property rates, and submit specific requirements. Offers robust management features for property investments and generation of receipts for transactions.",
+            "tools": [
+                "Jira",
+                "Github"
+            ]
+        },
+        {
+            "job_title": "N/A",
+            "company": "Productor",
+            "location": "N/A",
+            "dates": "N/A",
+            "description": "Create folder structure, Develop UI using HTML5, CSS3, Tailwind CSS, Material UI. Collaborate with designers and developers to create global components. Leverages Google SSO and AWS Cognito for user authentication, eliminating the need for a traditional signup process. Enables users to create and organize multiple portfolios, products, and associated groups, streamlining project management workflows. Provides a clear and detailed overview of individual product timelines.",
+            "tools": [
+                "Bitbucket",
+                "Jira"
+            ]
+        },
+        {
+            "job_title": "N/A",
+            "company": "ClearCare",
+            "location": "N/A",
+            "dates": "N/A",
+            "description": "Create folder structure, Develop UI using HTML5, CSS3, Tailwind CSS, React, Next.js, JavaScript, Formik. Platform for doctors and labs to streamline treatment planning and case management. Doctors can select treatments and specify requirements for labs to design and fulfill. Lab users can view and process orders based on detailed specifications, ensuring precision and efficiency. Offers full visibility into case progress and features dynamic invoice generation and printing for seamless billing.",
+            "tools": [
+                "Bitbucket",
+                "Jira"
+            ]
+        },
+        {
+            "job_title": "N/A",
+            "company": "Archimedis",
+            "location": "N/A",
+            "dates": "N/A",
+            "description": "Create folder structure, Develop UI using HTML5, CSS3, Form validation, create global components. Marketplace of pharmaceutical equipment listings. Offers a comprehensive range from cutting-edge technology to industry-standard machinery.",
+            "tools": [
+                "Github"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "AcmeLeap",
+            "tools": [
+                "Angular",
+                "MongoDB",
+                "Typescript",
+                "Jira",
+                "Github"
+            ],
+            "link": "N/A",
+            "impact": "Enhances recruitment process for job seekers and recruiters",
+            "description": "Streamlined platform for efficient recruitment with a focus on user experience and optimized operations"
+        },
+        {
+            "title": "NoBuilders",
+            "tools": [
+                "HTML5",
+                "CSS3",
+                "Angular",
+                "MongoDB",
+                "Typescript",
+                "EC2",
+                "Jira",
+                "Github"
+            ],
+            "link": "N/A",
+            "impact": "Streamlines the property discovery, investment, and management process in real estate crowdfunding",
+            "description": "Offers robust management features, detailed property listings, and seamless transactions"
+        },
+        {
+            "title": "Productor",
+            "tools": [
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Material UI",
+                "Bitbucket",
+                "Jira"
+            ],
+            "link": "N/A",
+            "impact": "Empowers organizations to enhance collaboration and maintain strategic alignment",
+            "description": "Manages and plans the entire project lifecycle efficiently with a focus on organization and project visibility"
+        },
+        {
+            "title": "ClearCare",
+            "tools": [
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "React",
+                "Next.js",
+                "JavaScript",
+                "Formik",
+                "Bitbucket",
+                "Jira"
+            ],
+            "link": "N/A",
+            "impact": "Streamlines treatment planning and case management for doctors and labs",
+            "description": "Offers full visibility into case progress, precision, and efficiency through detailed specifications and dynamic invoice generation"
+        },
+        {
+            "title": "Archimedis",
+            "tools": [
+                "HTML5",
+                "CSS3",
+                "Form validation",
+                "Github"
+            ],
+            "link": "https://archimedis.io/",
+            "impact": "Provides a comprehensive range of pharmaceutical equipment listings",
+            "description": "Offers a diverse marketplace for cutting-edge technology and industry-standard machinery"
+        }
+    ],
+    "languages": [
+        "English"
+    ],
+    "interests": [
+        "N/A"
+    ],
+    "achievements": [
+        "N/A"
+    ],
+    "publications": [
+        "N/A"
+    ]
+}
