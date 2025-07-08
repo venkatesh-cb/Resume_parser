@@ -55,7 +55,7 @@ if uploaded_file:
                     def render_parsed_resume(data):
                         def render_field(label, value, indent=0):
                             if value in [None, "", [], {}]:
-                                return  # Skip null/empty
+                                return
                             prefix = " " * indent
 
                             if isinstance(value, list):
@@ -69,8 +69,10 @@ if uploaded_file:
                                     clean_label = label.strip() if label else ""
                                     if clean_label:
                                         st.markdown(f"**{clean_label}**:")
-                                    for item in value:
+                                    for i, item in enumerate(value):
                                         render_field("", item, indent + 4)
+                                        if i < len(value) - 1:
+                                            st.markdown("<hr style='margin:4px 0;'>", unsafe_allow_html=True)
 
                             elif isinstance(value, dict):
                                 clean_label = label.strip() if label else ""
@@ -100,7 +102,7 @@ if uploaded_file:
                             render_field("", value)
 
                     # ------------------- Display Output ---------------------
-                    st.subheader("📄Resume Details:")
+                    st.subheader("📄 Resume Details: ")
                     render_parsed_resume(parsed_data)
 
                 else:

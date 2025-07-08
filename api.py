@@ -38,7 +38,7 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     return f"""
-You are a smart resume parser. Extract structured information from the resume text below. If the words are jumbled or not in a proper format, try to make sense of them. Use all the text provided, even if it seems incomplete or messy.
+You are a smart resume parser. Extract structured information from the resume text below. If the words are jumbled or not in a proper format, try to make sense of them. Use all the text provided, even if it seems incomplete or messy. Also if any text is not used, include at least a brief summary of the resume in the summary field. 
 
 ➤ Respond ONLY in valid, compact JSON.  
 ➤ Include all fields you find. Omit any that are missing.  
@@ -47,10 +47,10 @@ You are a smart resume parser. Extract structured information from the resume te
 Extractable fields:
 - name
 - contact: email, phone, linkedin, github, etc.
-- summary
-- dob, gender, nationality
+- summary: a brief professional summary using entire resume text, if not properly formatted make sense of it
+- dob, gender, nationality, place
 - education: degree, institute, location, dates, cgpa
-- skills: group as programming_languages, tools, soft_skills
+- skills: group as hard_skills, tools, soft_skills
 - certifications: title, issuer, date, certificate_link
 - experience: job_title, company, location, dates, description, tools
 - projects: title, tools, link, impact, description
@@ -76,8 +76,10 @@ Respond only with JSON:
   "dob": "...",
   "gender": "...",
   "nationality": "...",
+  "place": "...",
   "education": [...],
   "skills": {{
+    "hard_skills": [...],
     "programming_languages": [...],
     "tools": [...],
     "soft_skills": [...]
