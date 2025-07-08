@@ -1,0 +1,231 @@
+  
+  
+USA: AVERTRA CORP: 580 HERNDON  
+PKWY, SUITE 300 HERNDON, VA 20170  
+www.avertra.com  
+  
+  
+Allam Naga Keerthi  
+Mendix UI Development 
+                                                                                      Email:  keerthiramu.allam@gmail.com 
+  
+Executive Summary:  
+A highly self-motivated IT professional with over 7 years of experience, specializing in HTML, CSS, Sass, 
+Bootstrap and excelling in Mendix UI (both Hybrid and Native applications) with over 1.5 years of dedicated 
+development experience.  
+Profile Summary:  
+● 
+Proficient in frontend development in Mendix UI in Hybrid with responsive (using Scss) and Native 
+application.  
+● 
+Good Knowledge to build microflows, validation, domain model, security, customising the widgets. 
+● 
+Expertise in creating the dark and light themes as per company guidelines using SCSS or CSS in all 
+frameworks like Mendix and angular.  
+● 
+Skilled in client communication, collaboration, and managing expectations to deliver exceptional 
+results.  
+● 
+Good exposure in customizing the Mendix components and custom content in the Mendix as per the 
+Company Guidelines.  
+● 
+Responsible for responsive designs in all browsers in low and high resolutions.  
+● 
+Effective troubleshooting skills with a proactive approach to issue resolution.  
+● 
+Adaptive to new technologies, with a passion for learning and implementing cutting-edge solutions.  
+● 
+Capable of excelling in both team-based and independent work environments.  
+● 
+Possess foundational knowledge in Mendix development, with the ability to work on basic 
+applications.  
+● 
+Trained the team and shared knowledge and experience.  
+  
+Certification:  
+● 
+Mendix Rapid developer certification.  
+● 
+Mendix Intermediate level certification.  
+  
+Experience:  
+Company #1: SreeTammina Software Solutions Pvt Ltd, Jan 2016 -May 2019  
+Company #2: Avertra Corp, June 2019 – January 2024  
+      
+Personal Learning Plan(PLP):  
+● 
+Web Designer – Angular 6 with Bootstrap 4:  
+o 
+Involved in mock up designs.  
+o 
+Converted CSS to SASS.  
+o 
+Integration of code and testing app. 
+  
+  
+USA: AVERTRA CORP: 580 HERNDON  
+PKWY, SUITE 300 HERNDON, VA 20170  
+www.avertra.com  
+  
+  
+o 
+Converting mock-ups to dynamic HTML content in angular.  
+o 
+Involved in improving and maintaining code quality.  
+o 
+Identifying and solving bugs in all browsers and maintaining accessibility.  
+o 
+Communicating with clients regarding UI Career Trek:  
+● 
+Sr.Web Designer – Angular Material:  
+o 
+Designing web pages by using angular material and flexbox with SCSS.  
+o 
+Involved in development using angular by changing theme dynamically.  
+o 
+Implemented animations using angular4.    
+o 
+Build 7-1 pattern in scss architect.  
+o 
+Maintaining css using BEM methodology.  
+o 
+Responsible for End-To-End web page designing.  
+Dr.Tammina:  
+● 
+Sr.Web Designer - Ionic:  
+o 
+Designed mockups for Test User in Photoshop and for web.  
+o 
+Accessibility and supporting all browsers.  
+o 
+Finding bugs and solving.  
+o 
+Testing mobile app and solving issues.  
+  
+Aramex:  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the zeplin rules and doing design according to that.  
+o 
+Designing and customizing the pages in modular. 
+o 
+Customizing the wizard and mendix default components according to design.    
+o 
+Interaction with clients everyday updating the status and working according 
+to their requirement. MiUtility:  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that. 
+o 
+Designing and customizing the pages in modular.  
+o 
+Customizing the wizard and mendix default components according to design.    
+o 
+Interaction with clients everyday updating the status and working according 
+to their requirement. 
+PSE:  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that.   
+o 
+Designing and customizing the pages in modular.  
+o 
+Customizing the wizard and mendix default components according to design.   
+o 
+Responsible for responsive design in all resolution.   
+o 
+Interaction with clients everyday updating the status and working according 
+to their requirement.  
+  
+  
+USA: AVERTRA CORP: 580 HERNDON  
+PKWY, SUITE 300 HERNDON, VA 20170  
+www.avertra.com  
+  
+  
+Fairfax/Halifax:  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that. 
+o 
+Designing and customizing the pages in modular.  
+o 
+Customizing the wizard and mendix default components according to design.    
+o 
+Interaction with clients everyday updating the status and working according to their 
+requirement.  
+o 
+Maintained Scss structure and BEM methodology  
+  
+NTUA, UNGC, Sales Amendement:  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that.  
+o 
+Designing and customizing the pages in modular.  
+o 
+Customizing the wizard and mendix default components according to design.    
+o 
+Maintained Scss structure and BEM mehodology  
+o 
+Worked on form validations. 
+o 
+Interaction with clients everyday updating the status and working according to their 
+requirement.  
+  
+Black List, Books, Identification of certification, housing bank, Petty cash fund, LTT (Dev 
+and Security projects):  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that.  
+o 
+Designing and customizing the pages in modular. 
+o 
+Customizing the Wizard according to the project. 
+o 
+Worked on responsive design for all resolution.  
+o 
+Maintained scss library for all the above project for other languages.  
+o 
+Worked on form validations. 
+o 
+Edit operation on multiple list selection. 
+  
+  
+PWC (Partner Performance, Risk and Quality Panel):  
+● 
+Sr.Mendix UI Designer:  
+o 
+Following the figma rules and doing design according to that.    
+o 
+Designing and customizing the pages in modular. 
+o 
+Customizing the Rich text Wizard according to the project. 
+o 
+Work on few own wizards using javascript and jQuery. 
+o 
+Worked on theme concept in scss.  
+o 
+Created the theme module for styles. 
+o 
+ Worked on form validations. 
+  
+  
+USA: AVERTRA CORP: 580 HERNDON  
+PKWY, SUITE 300 HERNDON, VA 20170  
+www.avertra.com  
+  
+  
+o 
+Implementing logic using best practice.  
+o 
+Worked on exporter, importer on excel. 
+ 
+Declaration:  
+I hereby declare that the above information is true to the best of my knowledge.  
