@@ -6,7 +6,7 @@ import json
 import datetime
 
 # Replace with your EC2 instance's Public IPv4 address
-SERVER_URL = "http://13.232.153.155:8000/parse-resume/"
+SERVER_URL = "http://13.235.134.87:8000/parse-resume/"
 TEXT_DIR = 'extracted_text'
 OUTPUT_DIR = 'parsed_resumes'
 

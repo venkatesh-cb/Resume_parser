@@ -1,0 +1,94 @@
+VYANKATESH GALANDE 
+   Phone: 7385133047                                                                                                  LinkedIn: vyankatesh-galande-27065b224 
+Email: vyankateshgalande1@gmail.com                                                                                    Website: vyankatesh19.netlify.app 
+ 
+EDUCATION 
+• 
+BTech - DKTE Textile & Engineering College ( ENTC). 
+Aug 2020 - June 2024 
+• 
+HSC - Sharad Science & Commerce College. 
+June 2019 - May 2020 
+ 
+SKILLS 
+• 
+Frameworks and Languages: HTML5, CSS3, Bootstrap5 , JavaScript, React js , Python, Django,, Restful 
+API,JSON , Accessible & Responsive web design,Dart, Flutter,Flutter Stacked,OOPs, DBMS. 
+• 
+Database :  SQL  
+• 
+Tools & Technologies: VS Code,Firebase, Git , Github , Adobe XD(UI / UX). 
+ 
+WORK EXPERIENCE 
+ 
+Software Development (Full Stack developer) 
+         Mar 2024 – Present 
+at Fevino industries LLP , Pune 
+ 
+Project : Smart Home Mobile Application 
+ 
+• 
+Flutter Stacked Development worked extensively with Flutter Stacked architecture to create robust 
+and maintainable applications. 
+• 
+Theming implemented six different types of themes to enhance the visual appeal and usability of the 
+app. 
+• 
+Home Screen designed and developed a user-friendly functional home screen for the app, Ensured 
+the app is responsive and provides a seamless experience on both Android and iOS platforms. 
+• 
+Utilized effective state management techniques to maintain a consistent app state, optimized SQL 
+queries for efficient data handling and retrieval. 
+• 
+Developing a responsive, accessible smart home website using HTML5, CSS3, Bootstrap 5, JavaScript, 
+React js, SQL and Django, with UI/UX design in Adobe XD, focusing on a seamless user experience across 
+devices. 
+• 
+Firebase Integration: Implemented Firebase phone number verification for secure user login, Set up 
+functionality for users to upload and manage profile images using Firebase Firebase storage. 
+• 
+Integrated RESTful APIs using various HTTP methods for seamless data retrieval and handling 
+within the app, optimizing communication with backend services.  
+ 
+PROJECTS 
+Sunmyra pvt ltd: 
+• 
+My first freelancing project based on frontend web technologies. 
+• 
+Used technologies HTML5, CSS3,  Bootstrap5 , JavaScript, adobe  xd and hosted on Netlify. 
+• 
+Developed an marketing business website for daily increasing sales & customers. 
+ 
+Weather React Application : 
+• 
+Used openweather forecast API. 
+• 
+Used technical skills html5,css3, ,bootstrap5,react js and responsive app. 
+(Other Projects Mentioned on Portfolio) 
+ 
+CERTIFICATIONS  
+• Javascript (HackerRank) 
+• 
+React Js (HackerRank)  • 
+Java Basic (HackerRank)  • 
+SQL (HackerRank) 
+ 
+ACHIEVEMENT 
+• Awarded Best Athletics in Annual Sports 2023 
+• 
+Web design winner in college event 
+
+
+Extracted Hyperlinks:
+[1] vyankatesh-galande-27065b224 
+     Website: vyankatesh19.netlify.app — https://www.linkedin.com/in/vyankatesh-galande-27065b224
+[2] : vyankateshgalande1@gmail.com — mailto:vyankateshgalande1@gmail.com
+[3] vyankatesh19.netlify.app — https://vyankatesh19.netlify.app/
+[4] PROJECTS 
+Sunmyra pvt ltd: — https://sunmyra.netlify.app/
+[5] Weather React Application : — https://react-weatherforcast-app.netlify.app/
+[6] RTIFICAT
+ Javascript ( — https://www.hackerrank.com/certificates/6aab079ec71f
+[7] React Js ( — https://www.hackerrank.com/certificates/8f97a64b5e69
+[8] Java Basic ( — https://www.hackerrank.com/certificates/7b3adf2684bf
+[9] SQL ( — https://www.hackerrank.com/certificates/03b56e03bea9

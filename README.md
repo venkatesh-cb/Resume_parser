@@ -1,12 +1,14 @@
 # Resume_parser
 Server:
- ssh -i ~/.ssh/resume-parser-key.pem ubuntu@Change.ap-south-1.compute.amazonaws.com
+ ssh -i ~/.ssh/resume-parser-key.pem ubuntu@*Change*.ap-south-1.compute.amazonaws.com
  cd Resume_parser/
  source venv/bin/activate
  uvicorn api:app --host 0.0.0.0 --port 8000
 
 Client:
- python3 client.py
+ source venv/bin/activate
+ change IP in client.py
+ python app.py
 
 
 Ran file:
@@ -31,10 +33,5 @@ Successfully parsed and saved to parsed_resumes/Vyankatesh Galande19[1].json
 Successfully parsed and saved to parsed_resumes/2211venkateshs@gmail.com.json
 2025-07-04 13:37:46 - INFO - Client finished processing files.
 
-4. Starting client to process files...
-2025-07-05 05:24:30.255314
 
---- Processing: Shamanth's Resume.txt ---
-Successfully parsed and saved to parsed_resumes/Shamanth's Resume.json
-2025-07-05 05:39:12.785204
 

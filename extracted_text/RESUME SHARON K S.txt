@@ -1,0 +1,89 @@
+Programming Languages                      
+ Python ,SQL, R
+Visualization:
+PowerBI, Excel
+DBMS:
+MySQL, PostgreSQL
+Frameworks:
+Flask,Streamlit
+Soft Skills 
+Communication, Project
+Coordination, Critical Thinking &
+Problem Solving, 
+A R E A S  O F  I N T E R E S T  
+MSC DATA SCIENCE
+SHARON K S
+C O N T A C T
+8148390584
+sharonsan2604@gmail.com
+P R O J E C T S
+Hosur,Tamil Nadu
+S K I L L S
+E X T R A - C U R R I C U L A R S
+P R O F I L E
+MSC DATA SCIENCE (5 YEARS
+INTEGRATED) 2022 - PRESENT
+Coimbatore Institute of Technology
+Coimbatore
+CGPA: 8.346
+CLASS XII ( BOARD ) 2022
+Green Park International Sr Sec
+School
+Namakkal
+PERCENTAGE - 87.2%
+CLASS X ( BOARD ) 2020
+The Titan School
+Hosur
+PERCENTAGE-92.5%
+ A motivated, optimistic, and ambitious individual with excellent
+communication and technical skills, seeking a challenging role in a reputable
+organization. Committed to contributing effectively to projects while expanding
+my expertise and achieving mutual growth with the firm.
+AGE AND GENDER DETECTION:
+Developed an Al-based system that directly captures images from camera and
+predicts the user's age and gender using Deep Neural Networks (DNN) and
+OpenCV. The system processes live facial inputs in realtime to classify
+demographic attributes accurately . Pretrained models for face detection, age
+prediction, and gender prediction were utilized in the process.
+Tools Used: Python, OpenCV, Deep Neural Networks (DNN), Pretrained Models,
+NumPy, and Matplotlib.
+https://www.linkedin.com/in/s
+haron-santhosh-379406260/
+DIABETES PREDICTION SYSTEM:
+Developed a diabetes prediction model using SVM, deployed on Azure, featuring
+Flask backend,
+HTML/CSS frontend, and GitHub project management. 
+Tools Used: Python, Flask, Scikit-learn, HTML/CSS for frontend templates.
+STORY GENERATOR:
+Created a dynamic story generation app powered by the Ollama language model,
+featuring real-time comprehension questions, a read-aloud option, and PDF
+downloads. Enhanced user experience with custom styling and seamless interaction
+via Streamlit. 
+Tools Used: Python, Streamlit, Ollama, FPDF, gTTS, HTML/CSS for custom styling.
+Participated in a paper presentation at Kumaraguru College of Technology,
+Coimbatore.
+ Secured 3rd place in “HACKERWAY HACKATHON” conducted by CIT,
+Coimbatore.
+A C H I E V E M E N T S
+C E R T I F I C A T I O N S
+Data Structures
+Machine Learning,
+ Deep Learning
+Data Administration
+Data Analysis
+Microsoft Power BI Desktop for Business Intelligence                              [Udemy]
+Python Data Structures & Algorithms                                                           [Udemy]
+The Complete SQL Bootcamp: Go from Zero to Hero                               [Udemy]
+E D U C A T I O N
+SECRETORY -Rotract Club of CIT
+THROWBALL PLAYER -Sportst Club
+of CIT
+https://github.com/sharonsan2604
+
+
+Extracted Hyperlinks:
+[1] https://www.link
+haron-santhosh-3 — https://www.linkedin.com/in/sharon-santhosh-379406260/
+[2] kedin.com/in/s
+379406260/ — https://www.linkedin.com/in/sharon-santhosh-379406260/
+[3] haron-santhosh-379406260 — https://www.linkedin.com/in/sharon-santhosh-379406260/

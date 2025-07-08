@@ -1,0 +1,105 @@
+{
+    "name": "Shamanth P C",
+    "contact": {
+        "email": "shammupadpu17@gmail.com",
+        "phone": "+91 9611243611",
+        "linkedin": "www.linkedin.com/in/shamanthpc"
+    },
+    "summary": "Creative and detail-oriented UI/UX designer with 2.5 years of experience delivering user-centric designs for 15+ projects across various industries. Proven ability to turn complex requirements into intuitive interfaces that enhance user experience and drive business goals. Passionate about creating visually appealing and functional designs.",
+    "dob": null,
+    "gender": null,
+    "nationality": "India",
+    "education": [
+        {
+            "degree": null,
+            "institute": "Bangalore School Of Design",
+            "location": "Bangalore, Karnataka, India",
+            "dates": "2021 - 2022",
+            "cgpa": null
+        },
+        {
+            "degree": "Professional Diploma in UI/UX",
+            "institute": "Bangalore School Of Design",
+            "location": "Bangalore, Karnataka, India",
+            "dates": "2021 - 2022",
+            "cgpa": null
+        },
+        {
+            "degree": "Bachelor of Social Work",
+            "institute": "Mangalore University",
+            "location": "Mangalore, Karnataka, India",
+            "dates": "2018 - 2021",
+            "cgpa": null
+        }
+    ],
+    "skills": {
+        "programming_languages": [],
+        "tools": [
+            "Figma",
+            "Framer",
+            "Wordpress",
+            "Notion"
+        ],
+        "soft_skills": [
+            "Empathy",
+            "Design Thinking",
+            "Problem-Solving",
+            "User Research",
+            "No Code Websites Development",
+            "Responsive Design",
+            "Design System",
+            "Wireframing & Prototyping"
+        ]
+    },
+    "certifications": [],
+    "experience": [
+        {
+            "job_title": "Freelance UI/UX Designer",
+            "company": "Self-Employed",
+            "location": null,
+            "dates": "May 2023 - Present",
+            "description": "Designed 15+ projects, including web apps, mobile apps, dashboards, and landing pages, for clients in industries such as Education, E-commerce, SaaS, Marketing and more. Developed high-fidelity designs, collaborating with developers to ensure seamless implementation. Created intuitive and accessible interfaces that increased client engagement and conversion rates.",
+            "tools": [
+                "Figma",
+                "Framer",
+                "Wordpress",
+                "Notion"
+            ]
+        },
+        {
+            "job_title": "UI/UX Designer",
+            "company": "Antbobbles",
+            "location": null,
+            "dates": "May 2023 - January 2024",
+            "description": "Worked on DevTown's website to create a seamless experience. Responsible for all company design assets. Finding & Solving issues in Webflow.",
+            "tools": [
+                "Figma",
+                "Framer",
+                "Webflow"
+            ]
+        },
+        {
+            "job_title": "UI/UX Designer",
+            "company": "DevTown",
+            "location": null,
+            "dates": "October 2022 - April 2023",
+            "description": "Worked on DevTown's website to create a seamless experience. Responsible for all company design assets. Finding & Solving issues in Webflow.",
+            "tools": [
+                "Figma",
+                "Webflow"
+            ]
+        }
+    ],
+    "projects": [],
+    "languages": [
+        "English",
+        "Kannada"
+    ],
+    "interests": [],
+    "links": [
+        "https://shamanth.framer.ai/"
+    ],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}

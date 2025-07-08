@@ -1,0 +1,68 @@
+{
+    "name": "Abhay",
+    "contact": {
+        "email": "mate.abhay198@gmail.com",
+        "phone": "9518376485",
+        "linkedin": "www.linkedin.com/in/abhay-mate-82b291251"
+    },
+    "summary": "To be part of leading organization that utilizes my abilities to the fullest extent...",
+    "dob": "18 DEC 2001",
+    "gender": null,
+    "nationality": "India",
+    "education": [
+        {
+            "degree": "B.E.",
+            "institute": "Ajeenkya DY Patil School of Engineering - ADYPSOE",
+            "location": "Pune, Maharashtra, India - 412105",
+            "dates": "2021-2024",
+            "cgpa": "9.50 / 10.00"
+        },
+        {
+            "degree": "Diploma",
+            "institute": "ADYPU SOE, PUNE",
+            "location": null,
+            "dates": "2021",
+            "percentage": "87.28 / 100.00"
+        },
+        {
+            "degree": null,
+            "institute": "Shri swami samarth, Pune",
+            "location": null,
+            "dates": "2017",
+            "percentage": "71.00 / 100.00"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Core java"
+        ],
+        "tools": [
+            "Selenium",
+            "Test cases",
+            "Test execution",
+            "Regression Testing",
+            "SDLC",
+            "STLC"
+        ],
+        "soft_skills": [
+            "Teamwork and collaboration",
+            "Good Communication skill",
+            "Always ready to learn new things. Time management skill."
+        ]
+    },
+    "certifications": [],
+    "experience": [],
+    "projects": [],
+    "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+    ],
+    "interests": [],
+    "links": [
+        "http://www.linkedin.com/in/abhay-mate-82b291251"
+    ],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}

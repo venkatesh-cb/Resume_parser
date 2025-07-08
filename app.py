@@ -2,7 +2,6 @@
 
 import streamlit as st
 import os
-import shutil
 import json
 from pdf_parser import extract_single_resume
 from client import parse_resume_text
@@ -40,7 +39,7 @@ if uploaded_file:
             with open(text_path, 'w', encoding='utf-8') as f:
                 f.write(extracted_text)
 
-            st.success("✅ Text extracted. Sending to LLM...")
+            # st.success("✅ Text extracted. Sending to LLM...")
 
             with st.spinner("Parsing with LLM..."):
                 parsed_data = parse_resume_text(extracted_text)
@@ -49,33 +48,60 @@ if uploaded_file:
                     json_path = os.path.join(PARSED_DIR, txt_filename.replace(".txt", ".json"))
                     with open(json_path, 'w', encoding='utf-8') as f:
                         json.dump(parsed_data, f, indent=4)
-                    
-                    st.success("✅ Resume parsed successfully!")
 
-                    def render_json_recursively(obj, level=1):
-                        if isinstance(obj, dict):
-                            for key, value in obj.items():
-                                if level == 1:
-                                    st.markdown(f"## {key}")
-                                elif level == 2:
-                                    st.markdown(f"### {key}")
-                                elif level == 3:
-                                    st.markdown(f"**{key}**")
+                    # st.success("✅ Resume parsed successfully!")
+
+                    # ------------------- Display Function ---------------------
+                    def render_parsed_resume(data):
+                        def render_field(label, value, indent=0):
+                            if value in [None, "", [], {}]:
+                                return  # Skip null/empty
+                            prefix = " " * indent
+
+                            if isinstance(value, list):
+                                if all(isinstance(item, str) for item in value):
+                                    clean_label = label.strip() if label else ""
+                                    if clean_label:
+                                        st.markdown(f"{prefix}> **{clean_label}**:")
+                                    for item in value:
+                                        st.markdown(f"{prefix}&nbsp;&nbsp;&nbsp;&nbsp;- {item}")
                                 else:
-                                    st.markdown(f"- **{key}**")
+                                    clean_label = label.strip() if label else ""
+                                    if clean_label:
+                                        st.markdown(f"**{clean_label}**:")
+                                    for item in value:
+                                        render_field("", item, indent + 4)
 
-                                render_json_recursively(value, level + 1)
+                            elif isinstance(value, dict):
+                                clean_label = label.strip() if label else ""
+                                if clean_label:
+                                    st.markdown(f"**{clean_label}**:")
+                                for sub_label, sub_value in value.items():
+                                    render_field(sub_label.replace("_", " ").title(), sub_value, indent + 4)
 
-                        elif isinstance(obj, list):
-                            for item in obj:
-                                render_json_recursively(item, level)
+                            else:
+                                clean_label = label.strip() if label else ""
+                                if clean_label:
+                                    st.markdown(f"{prefix}> **{clean_label}**: {value}")
+                                else:
+                                    st.markdown(f"{prefix}{value}")
 
-                        elif isinstance(obj, str):
-                            st.markdown(f"{obj}")
-                        
-                    st.subheader("📌 Parsed Resume Data")
-                    render_json_recursively(parsed_data)
+                        # Print Name (if available at top)
+                        if "name" in data:
+                            st.markdown(f"### 👤 Name: {data['name']}")
+                            del data["name"]
 
+                        # Iterate and print each non-null section
+                        for key, value in data.items():
+                            if value in [None, "", [], {}]:
+                                continue
+                            section_title = key.replace("_", " ").title()
+                            st.markdown(f"---\n### 📌 {section_title}")
+                            render_field("", value)
+
+                    # ------------------- Display Output ---------------------
+                    st.subheader("📄Resume Details:")
+                    render_parsed_resume(parsed_data)
 
                 else:
                     st.error("❌ Failed to parse resume using LLM.")

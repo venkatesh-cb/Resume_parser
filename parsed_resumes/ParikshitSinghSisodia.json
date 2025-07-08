@@ -1,0 +1,89 @@
+{
+    "name": "Parikshit Raj Singh Sisodia",
+    "contact": {
+        "email": "parikshitssisodia@gmail.com",
+        "phone": "+91 9887876775",
+        "linkedin": "linkedin.com/in/parikshit-raj-singh-sisodia-785b45306"
+    },
+    "summary": "Business Analyst Intern",
+    "dob": null,
+    "gender": null,
+    "nationality": "India",
+    "education": [
+        {
+            "degree": "Postgraduate Diploma in Computer Application",
+            "institute": "Simplilearn",
+            "location": null,
+            "dates": "01/2025 - Present",
+            "cgpa": null
+        },
+        {
+            "degree": "Bachelor of Science",
+            "institute": "Pratap University",
+            "location": null,
+            "dates": "2016 - 2019",
+            "cgpa": null
+        },
+        {
+            "degree": "Bachelor of Science",
+            "institute": "MDS School (CBSE)",
+            "location": null,
+            "dates": "2012 - 2016",
+            "cgpa": null
+        },
+        {
+            "degree": "High School",
+            "institute": "High School",
+            "location": null,
+            "dates": "2014 - 2016",
+            "cgpa": null
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "SQL"
+        ],
+        "tools": [
+            "Power BI",
+            "Tableau",
+            "Microsoft Excel",
+            "Agile Scrum methodology"
+        ],
+        "soft_skills": [
+            "Problem Solving",
+            "Data Visualization",
+            "Business Analysis",
+            "Requirement Analysis",
+            "Strategy Analysis",
+            "Planning and Monitoring"
+        ]
+    },
+    "certifications": [],
+    "experience": [
+        {
+            "job_title": "Business Analyst Intern",
+            "company": "WebMobi 360",
+            "location": "Pune, India",
+            "dates": null,
+            "description": "Assisted in gathering project requirements and analyzing business processes. Coordinated with clients to understand needs and translated them into actionable insights. Created detailed reports and dashboards to identify trends and optimize business decisions. Worked closely with teams to validate project quality and implement client feedback effectively.",
+            "tools": [
+                "Power BI",
+                "Tableau"
+            ]
+        }
+    ],
+    "projects": [],
+    "languages": [
+        "English",
+        "Hindi"
+    ],
+    "interests": [
+        "Professional Ethics"
+    ],
+    "links": [
+        "https://enhancv.com/resume"
+    ],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}

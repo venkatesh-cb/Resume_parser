@@ -1,0 +1,118 @@
+{
+    "name": "Sharon K S",
+    "contact": {
+        "email": "sharonsan2604@gmail.com",
+        "phone": "8148390584"
+    },
+    "summary": "A motivated, optimistic, and ambitious individual with excellent communication and technical skills, seeking a challenging role in a reputable organization. Committed to contributing effectively to projects while expanding my expertise and achieving mutual growth with the firm.",
+    "dob": null,
+    "gender": null,
+    "nationality": null,
+    "education": [
+        {
+            "degree": "MSC DATA SCIENCE",
+            "institute": "Coimbatore Institute of Technology",
+            "location": "Coimbatore",
+            "dates": "2022-PRESENT",
+            "cgpa": "8.346"
+        },
+        {
+            "degree": null,
+            "institute": "Green Park International Sr Sec School",
+            "location": "Namakkal",
+            "dates": "2022",
+            "percentage": "87.2%"
+        },
+        {
+            "degree": null,
+            "institute": "The Titan School",
+            "location": "Hosur",
+            "dates": "2020",
+            "percentage": "92.5%"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "SQL",
+            "R"
+        ],
+        "tools": [
+            "PowerBI",
+            "Excel",
+            "MySQL",
+            "PostgreSQL",
+            "Flask",
+            "Streamlit"
+        ],
+        "soft_skills": [
+            "Communication",
+            "Project Coordination",
+            "Critical Thinking & Problem Solving"
+        ]
+    },
+    "certifications": [],
+    "experience": [],
+    "projects": [
+        {
+            "title": null,
+            "tools": [
+                "Python",
+                "OpenCV",
+                "Deep Neural Networks (DNN)",
+                "Pretrained Models",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "link": null,
+            "impact": "Developed an Al-based system that directly captures images from camera and predicts the user's age and gender using Deep Neural Networks (DNN) and OpenCV. The system processes live facial inputs in realtime to classify demographic attributes accurately.",
+            "description": null
+        },
+        {
+            "title": null,
+            "tools": [
+                "Python",
+                "Flask",
+                "Scikit-learn",
+                "HTML/CSS"
+            ],
+            "link": null,
+            "impact": "Developed a diabetes prediction model using SVM, deployed on Azure, featuring Flask backend, HTML/CSS frontend, and GitHub project management.",
+            "description": null
+        },
+        {
+            "title": null,
+            "tools": [
+                "Python",
+                "Streamlit",
+                "Ollama",
+                "FPDF",
+                "gTTS",
+                "HTML/CSS"
+            ],
+            "link": null,
+            "impact": "Created a dynamic story generation app powered by the Ollama language model, featuring real-time comprehension questions, a read-aloud option, and PDF downloads. Enhanced user experience with custom styling and seamless interaction via Streamlit.",
+            "description": null
+        }
+    ],
+    "languages": [],
+    "interests": [],
+    "links": [
+        "https://www.linkedin.com/in/sharon-santhosh-379406260/"
+    ],
+    "apps_built": [],
+    "achievements": [
+        {
+            "title": null,
+            "issuer": null,
+            "date": null,
+            "certificate_link": null
+        },
+        {
+            "title": "3rd place in HACKERWAY HACKATHON",
+            "issuer": "CIT",
+            "date": null
+        }
+    ],
+    "publications": []
+}

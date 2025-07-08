@@ -38,7 +38,7 @@ def download_model():
 
 def get_llm_prompt(resume_text):
     return f"""
-You are a smart resume parser. Extract structured information from the resume text below.
+You are a smart resume parser. Extract structured information from the resume text below. If the words are jumbled or not in a proper format, try to make sense of them. Use all the text provided, even if it seems incomplete or messy.
 
 ➤ Respond ONLY in valid, compact JSON.  
 ➤ Include all fields you find. Omit any that are missing.  

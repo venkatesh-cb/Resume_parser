@@ -12,3 +12,8 @@ uvicorn[standard]
 llama-cpp-python
 pydantic
 requests # To download the model
+
+# Dependencies for OCR and PDF processing
+# pip install layoutparser "pytesseract" "pdf2image" "opencv-python-headless"
+# pip install "layoutparser[layoutmodels]"
+# sudo apt install tesseract-ocr poppler-utils
