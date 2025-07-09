@@ -2,6 +2,7 @@
 
 import streamlit as st
 import os
+import shutil
 import json
 from pdf_parser import extract_single_resume
 from client import parse_resume_text
@@ -39,7 +40,7 @@ if uploaded_file:
             with open(text_path, 'w', encoding='utf-8') as f:
                 f.write(extracted_text)
 
-            # st.success("✅ Text extracted. Sending to LLM...")
+            st.success("✅ Text extracted. Sending to LLM...")
 
             with st.spinner("Parsing with LLM..."):
                 parsed_data = parse_resume_text(extracted_text)
@@ -48,41 +49,29 @@ if uploaded_file:
                     json_path = os.path.join(PARSED_DIR, txt_filename.replace(".txt", ".json"))
                     with open(json_path, 'w', encoding='utf-8') as f:
                         json.dump(parsed_data, f, indent=4)
-
-                    # st.success("✅ Resume parsed successfully!")
-
-                    # ------------------- Display Function ---------------------
+                    
+                    st.success("✅ Resume parsed successfully!")
                     def render_parsed_resume(data):
                         def render_field(label, value, indent=0):
                             if value in [None, "", [], {}]:
                                 return  # Skip null/empty
                             prefix = " " * indent
-
                             if isinstance(value, list):
                                 if all(isinstance(item, str) for item in value):
-                                    clean_label = label.strip() if label else ""
-                                    if clean_label:
-                                        st.markdown(f"{prefix}> **{clean_label}**:")
+                                    st.markdown(f"{prefix}> **{label}:**")
                                     for item in value:
                                         st.markdown(f"{prefix}&nbsp;&nbsp;&nbsp;&nbsp;- {item}")
                                 else:
-                                    clean_label = label.strip() if label else ""
-                                    if clean_label:
-                                        st.markdown(f"**{clean_label}**:")
+                                    st.markdown(f"**{label}:**")
                                     for item in value:
                                         render_field("", item, indent + 4)
-
                             elif isinstance(value, dict):
-                                clean_label = label.strip() if label else ""
-                                if clean_label:
-                                    st.markdown(f"**{clean_label}**:")
+                                st.markdown(f"**{label}:**")
                                 for sub_label, sub_value in value.items():
                                     render_field(sub_label.replace("_", " ").title(), sub_value, indent + 4)
-
                             else:
-                                clean_label = label.strip() if label else ""
-                                if clean_label:
-                                    st.markdown(f"{prefix}> **{clean_label}**: {value}")
+                                if label:
+                                    st.markdown(f"{prefix}> **{label}:** {value}")
                                 else:
                                     st.markdown(f"{prefix}{value}")
 
@@ -99,8 +88,8 @@ if uploaded_file:
                             st.markdown(f"---\n### 📌 {section_title}")
                             render_field("", value)
 
-                    # ------------------- Display Output ---------------------
-                    st.subheader("📄Resume Details:")
+                        
+                    st.subheader("📄 Parsed Resume Output")
                     render_parsed_resume(parsed_data)
 
                 else:
