@@ -47,7 +47,7 @@ You are a smart resume parser. Extract structured information from the resume te
 Extractable fields:
 - name
 - contact: email, phone, linkedin, github, etc.
-- summary
+- summary(Include any messy or jumbled sentences)
 - dob, gender, nationality
 - education: degree, institute, location, dates, cgpa
 - skills: group as programming_languages, tools, soft_skills
