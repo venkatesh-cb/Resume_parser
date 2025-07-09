@@ -1,0 +1,74 @@
+{
+    "name": "Allam Naga Keerthi",
+    "contact": {
+        "email": "keerthiramu.allam@gmail.com"
+    },
+    "summary": "A highly self-motivated IT professional with over 7 years of experience, specializing in HTML, CSS, Sass, Bootstrap and excelling in Mendix UI (both Hybrid and Native applications) with over 1.5 years of dedicated development experience.",
+    "dob": null,
+    "gender": null,
+    "nationality": "USA",
+    "education": [],
+    "skills": {
+        "programming_languages": [
+            "HTML",
+            "CSS",
+            "Sass",
+            "Bootstrap"
+        ],
+        "tools": [
+            "Mendix",
+            "Angular",
+            "Ionic"
+        ],
+        "soft_skills": [
+            "client communication",
+            "collaboration",
+            "managing expectations"
+        ]
+    },
+    "certifications": [
+        {
+            "title": "Mendix Rapid developer certification",
+            "issuer": "Mendix",
+            "date": null,
+            "certificate_link": null
+        },
+        {
+            "title": "Mendix Intermediate level certification",
+            "issuer": "Mendix",
+            "date": null,
+            "certificate_link": null
+        }
+    ],
+    "experience": [
+        {
+            "job_title": "Sr.Web Designer \u2013 Angular Material",
+            "company": "Avertra Corp",
+            "location": "USA",
+            "dates": "June 2019 \u2013 January 2024",
+            "description": "Designing web pages by using angular material and flexbox with SCSS. Involved in development using angular by changing theme dynamically. Implemented animations using angular4. Build 7-1 pattern in scss architect. Maintaining css using BEM methodology. Responsible for End-To-End web page designing.",
+            "tools": [
+                "Angular Material",
+                "Angular4"
+            ]
+        },
+        {
+            "job_title": "Sr.Web Designer \u2013 Angular 6 with Bootstrap 4",
+            "company": "Company #1: SreeTammina Software Solutions Pvt Ltd",
+            "location": null,
+            "dates": "Jan 2016 -May 2019",
+            "description": "Involved in mock up designs. Converted CSS to SASS. Integration of code and testing app. Converting mock-ups to dynamic HTML content in angular. Involved in improving and maintaining code quality. Identifying and solving bugs in all browsers and maintaining accessibility.",
+            "tools": [
+                "Angular 6",
+                "Bootstrap 4"
+            ]
+        }
+    ],
+    "projects": [],
+    "languages": [],
+    "interests": [],
+    "links": [],
+    "apps_built": [],
+    "achievements": [],
+    "publications": []
+}
