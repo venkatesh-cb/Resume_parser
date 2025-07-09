@@ -1,0 +1,101 @@
+Krishna Shukla
+# New Delhi
+ 8368400616
+# kriishukla@gmail.com
+ï linkedin.com/in/kriishukla/
+§ github.com/kriishukla
+EDUCATION
+Indraprastha Institute of Information Technology Delhi (IIIT-Delhi)
+November 2022 – May 2026
+B.Tech. in Computer Science and Artificial Intelligence (CSAI), Percentage: 80.4%
+New Delhi, Delhi
+WORK EXPERIENCE
+Complex System Labs
+Aug 2024 – Present
+Deep Learning & Large Language Model Research Intern
+New Delhi, Delhi
+• Developed an AI-powered recipe generator that suggests novel recipes based on available ingredients, achieving an accuracy
+of 92% using LLM-based models and transformer architectures.
+• Enhanced recipe visualization using Adobe Sensei with computer vision (CV) models trained on diverse datasets, improving
+recognition accuracy by 7.3% through data augmentation techniques.
+University of Glasgow
+April 2024 – July 2024
+Natural language processing(NLP) Research Intern
+Glasgow, Scotland
+• Developed and implemented novel methods to enhance information retrieval(IR) performance by leveraging diversity and
+similarity concepts under Prof. Debasis Ganguly and Prof. Sumit Bhatia (Senior ML Scientist, Adobe Inc).
+• Optimized advanced information retrieval algorithms, improving search accuracy by 3.1% and reducing query response
+time by 2.9% through efficient data processing techniques.
+Projects
+LieScope – GitHub
+December 2024 – April 2025
+• Analyzed linguistic deception markers in 17,000+ strategic messages using NLP techniques, discovering significant patterns
+in politeness levels and sentiment neutrality that distinguish truthful from deceptive communication.
+• Developed transformer-based deception models (BERT, RoBERTa) achieving 53.6 F1 score, outperforming human baselines by
+138% through optimized feature extraction and classifier combinations in PyTorch and Hugging Face frameworks.
+Phishing Website Detection System – GitHub
+April 2024 – December 2024
+• Engineered an enterprise-grade ML model deployment pipeline handling 1M+ queries/month. Automated workflows using
+Airflow & CI/CD, reducing deployment time by 50% and model update time by 37%.
+• Optimized phishing detection models with data reduction techniques (Coreset, SVD, CUR), achieving 99.75% accuracy in
+real-time threat detection across diverse datasets.
+Online Store Application - B2C E-commerce Platform – GitHub
+January 2024 – April 2024
+• Built a high-performance SQL-based e-commerce platform supporting 10K+ product entries. Optimized SQL queries &
+ACID transactions, improving inventory processing speed by 40%.
+• Engineered an automated order management CLI in Python, eliminating 80% of manual data entry through workflow
+automation, ensuring 100% ACID-compliant data integrity.
+SKILLS
+Programming Languages: C++ | Python | Java | C | JavaScript | Typescript | Groovy | Ruby | SQL | HTML | CSS | SCSS | OOP |
+Mongoose Web Development: React | Angular | NodeJS | Express | React Native | Lit | Mobx | Spring Boot | Django Data Science
+& Machine Learning: Machine Learning | Deep Learning | Natural Language Processing (NLP) | PyTorch | TensorFlow | Power BI |
+Langchain | Numpy | Spark | Hadoop | Looker Data Engineering: ETL Pipelines | Data Processing | Unit Testing | Integration Testing
+| Jenkins | Mongoose Cloud & DevOps: Google Cloud Platform (GCP) | Microsoft Azure | Docker | Kubernetes | Grafana | CI/CD |
+Process Automation Consulting: Stakeholder Management | Strategic Decision-Making Research Skills: Quantitative & Qualitative
+Research | UX Research | User Testing | Prototyping (Figma) Soft Skills: Communication | Leadership | Analytical Thinking |
+Persistence | Patience | Organization
+POSITIONS OF RESPONSIBILTY
+Administrator/Teacher/Problem Setter at FooBar
+August 2023 – Present
+• Managed FooBar, IIIT-Delhi’s top 20-member elite CP club, orchestrating 7 high-level contests on Codeforces & Polygon
+and developing 30+ advanced algorithmic problems covering DP and Graphs.
+• Instructed 5+ algorithmic programming workshops, mentoring 50+ students in competitive coding techniques.
+Competitive Programming Mentor & Problem Setter
+May 2023 – August 2023
+• Facilitated CP-I/CP-II, a summer course, teaching 400+ beginners and managing 20+ algorithmic problems on Polygon
+with 5+ bi-weekly contests on Codeforces.
+ACHIEVEMENTS
+Competitive Programming
+• Achieved ratings of 1308 on AtCoder (Top 3%), 1920 on CodeChef (Top 2%), and 1610 on Codeforces (Top 7%)
+• Secured 57th rank in ICPC 2024, 2276th in Meta Hacker Cup 2024, and 2726th in Meta Hacker Cup 2023
+Competitions / Hackathons
+• Finalist (Top 15) in hackathons organized by IIT Bombay, IIT Delhi, and IIIT Delhi; National Semifinalist - Novartis
+NEST (Data in Pharma) & National Prefinals - Adobe GenSolve GenAI Challenge.
+• Achieved District Rank 1 in Mental Maths (2019, 2020) among 150+ schools; Secured Reliance Foundation Scholarship
+(Top 0.1% selection); Gained admission to Amazon ML Summer School 2024.
+• Selected in the top 300 students (Top 0.15 percentile) in India for INMO.
+
+
+Extracted Hyperlinks:
+[1] �kriishukla@gmail.com — mailto:kriishukla@gmail.com
+[2] �linkedin.com/in/kriishukla/ — https://linkedin.com/in/shuklanish/
+[3] �github.com/kriishukla — https://github.com/kriishukla
+[4] GitHub
+ed lingui — https://github.com/kriishukla/LieScope
+[5] GitHub
+model de — https://github.com/kriishukla/PhishingURLPrediction
+[6] GitHub
+orm sup — https://github.com/kriishukla/KADS
+[7] AtCoder — https://atcoder.jp/users/min_27
+[8] CodeChef — https://www.codechef.com/users/xkrishnax
+[9] Codeforces — https://codeforces.com/profile/BytesizeGenius
+[10] ICPC 2024, — https://amritaicpc.in/ranked-teams
+[11] Meta Hacker Cup 2024, — https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1009302406779499
+[12] IIT Bombay, — https://github.com/kriishukla/Temperature-Alert-and-Weather-Forecast-Agent
+[13] IIT Delhi, — https://github.com/kriishukla/uAgents/tree/feature/new-feature
+[14] IIIT Delhi; — https://github.com/kriishukla/Optimal-Gaspipeline-in-calfornia
+[15] Novartis — https://docs.google.com/spreadsheets/d/e/2PACX-1vRDxnoobOic4e7BxkM4QUyRer_X4Ub8TOfvi5AJo-JDSEKE8FRa6VWGX1Js-FslnRGEM1J3TG-KwYEL/pubhtml
+[16] NEST — https://docs.google.com/spreadsheets/d/e/2PACX-1vRDxnoobOic4e7BxkM4QUyRer_X4Ub8TOfvi5AJo-JDSEKE8FRa6VWGX1Js-FslnRGEM1J3TG-KwYEL/pubhtml
+[17] Adobe GenSolve — https://drive.google.com/file/d/1N-Dhs7jcaRYljt6YoKfCU80EFMXgNW6o/view?usp=sharing
+[18] Amazon ML Summer School 2024. — https://drive.google.com/file/d/1BecUjPpCQbgjjBK5RYcVwdT_q9qH93N-/view
+[19] INMO. — https://drive.google.com/file/d/1vc8KnJgajZhprBZfWQDTNWtfcg6p7_ww/view

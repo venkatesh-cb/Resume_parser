@@ -107,20 +107,43 @@ Respond only with JSON:
 
 # --- LLM Output Cleaner ---
 def clean_llm_output(text_output):
+    """
+    Extracts a valid JSON block from raw LLM output.
+    Cleans common LLM formatting issues (// comments, N/A, etc.).
+    """
     try:
+        # Remove // comments
         cleaned = re.sub(r"^\s*//.*$", "", text_output, flags=re.MULTILINE)
+
+        # Remove trailing commas before closing brackets (JSON doesn't allow these)
+        cleaned = re.sub(r",(\s*[}\]])", r"\1", cleaned)
+
+        # Remove markdown blocks or triple backticks
+        cleaned = re.sub(r"```(?:json)?", "", cleaned)
+
+        # Replace `N/A` and similar values with null
+        cleaned = cleaned.replace("N/A", "null").replace("n/a", "null").replace("--", "null")
+
+        # Extract only JSON block (first `{` to last `}`)
         json_match = re.search(r"\{.*\}", cleaned, re.DOTALL)
-        if json_match:
-            json_string = json_match.group()
-            return json.loads(json_string)
-        print("❌ No valid JSON block found.")
-        return None
+        if not json_match:
+            print("❌ No JSON block found.")
+            return None
+
+        json_string = json_match.group()
+
+        # Now try parsing
+        return json.loads(json_string)
+
     except json.JSONDecodeError as e:
         print(f"❌ JSONDecodeError: {e}")
+        print(f"🚨 Problematic JSON:\n{json_string}")
+        print(f"🪵 Raw LLM Output (first 300 chars):\n{text_output[:300]}")
         return None
     except Exception as e:
-        print(f"❌ Unexpected error in clean_llm_output: {e}")
+        print(f"❌ Unexpected error: {e}")
         return None
+
 
 # --- Server Startup ---
 @app.on_event("startup")
@@ -159,7 +182,9 @@ async def parse_resume(request: ResumeRequest):
             raise HTTPException(status_code=500, detail="Failed to parse valid JSON.")
 
     except Exception as e:
+        print(f"❌ Full prompt sent to LLM:\n{prompt[:500]}")
         raise HTTPException(status_code=500, detail=f"LLM error: {e}")
+
 
 @app.get("/")
 def read_root():
