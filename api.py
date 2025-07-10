@@ -43,7 +43,7 @@ You are a smart resume parser.
 
 Your task is to extract structured information from the resume text provided below. 
 If the resume is messy, jumbled, or poorly formatted, interpret it to the best of your ability.
-Use all available information to create a compact JSON response.
+Use all available information to create a compact JSON response. Those which does not have value return null.
 
 ➤ Respond ONLY with valid JSON.
 ➤ Do NOT include comments, markdown, explanations, code blocks, or incomplete JSON.
@@ -108,41 +108,48 @@ Respond only with JSON:
 # --- LLM Output Cleaner ---
 def clean_llm_output(text_output):
     """
-    Extracts a valid JSON block from raw LLM output.
-    Cleans common LLM formatting issues (// comments, N/A, etc.).
+    Cleans and extracts valid JSON from raw LLM output.
+    Handles common LLM quirks like `...`, trailing commas, and placeholders.
     """
     try:
-        # Remove // comments
+        # Remove comment-style lines
         cleaned = re.sub(r"^\s*//.*$", "", text_output, flags=re.MULTILINE)
 
-        # Remove trailing commas before closing brackets (JSON doesn't allow these)
-        cleaned = re.sub(r",(\s*[}\]])", r"\1", cleaned)
+        # Remove markdown code block backticks
+        cleaned = cleaned.replace("```json", "").replace("```", "")
 
-        # Remove markdown blocks or triple backticks
-        cleaned = re.sub(r"```(?:json)?", "", cleaned)
+        # Replace '...' and similar with null
+        cleaned = cleaned.replace("...", "null")
 
-        # Replace `N/A` and similar values with null
+        # Replace [ ... ] with []
+        cleaned = re.sub(r"\[\s*null\s*\]", "[]", cleaned)
+
+        # Remove trailing commas before closing brackets/braces
+        cleaned = re.sub(r",\s*(\}|\])", r"\1", cleaned)
+
+        # Replace 'N/A' and '--' with null
         cleaned = cleaned.replace("N/A", "null").replace("n/a", "null").replace("--", "null")
 
-        # Extract only JSON block (first `{` to last `}`)
-        json_match = re.search(r"\{.*\}", cleaned, re.DOTALL)
-        if not json_match:
-            print("❌ No JSON block found.")
+        # Extract only the JSON block
+        match = re.search(r"\{.*\}", cleaned, re.DOTALL)
+        if not match:
+            print("❌ No valid JSON object found in the LLM output.")
             return None
 
-        json_string = json_match.group()
+        json_string = match.group()
 
-        # Now try parsing
+        # Try loading as JSON
         return json.loads(json_string)
 
     except json.JSONDecodeError as e:
         print(f"❌ JSONDecodeError: {e}")
-        print(f"🚨 Problematic JSON:\n{json_string}")
+        print(f"🚨 Problematic JSON string:\n{json_string}")
         print(f"🪵 Raw LLM Output (first 300 chars):\n{text_output[:300]}")
         return None
     except Exception as e:
-        print(f"❌ Unexpected error: {e}")
+        print(f"❌ Unexpected error in clean_llm_output: {e}")
         return None
+
 
 
 # --- Server Startup ---
