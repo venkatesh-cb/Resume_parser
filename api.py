@@ -51,7 +51,7 @@ Use all available information to create a compact JSON response. Those which doe
 ➤ Every key should be in double quotes, as per standard JSON.
 ➤ Use lists for fields with multiple values.
 ➤ Omit fields that are not present.
-
+➤ If any field contains 10+ items (e.g., tools, links), list only the top 10.
 
 Extractable fields:
 - name
@@ -137,7 +137,16 @@ def clean_llm_output(text_output):
             return None
 
         json_string = match.group()
+        # Try auto-closing brackets if ends prematurely
+        open_braces = json_string.count('{')
+        close_braces = json_string.count('}')
+        if close_braces < open_braces:
+            json_string += '}' * (open_braces - close_braces)
 
+        open_brackets = json_string.count('[')
+        close_brackets = json_string.count(']')
+        if close_brackets < open_brackets:
+            json_string += ']' * (open_brackets - close_brackets)
         # Try loading as JSON
         return json.loads(json_string)
 
@@ -161,7 +170,7 @@ async def startup_event():
     try:
         llm = Llama(
             model_path=MODEL_PATH,
-            n_ctx=4096,
+            n_ctx=8192,
             n_gpu_layers=0,
             verbose=False
         )
