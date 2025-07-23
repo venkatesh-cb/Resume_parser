@@ -202,6 +202,7 @@ async def parse_resume(request: ResumeRequest):
         parsed_json = clean_llm_output(raw_text)
 
         if parsed_json:
+            logging.info("🔹 Parsed JSON successfully.")
             return parsed_json
         else:
             raise HTTPException(status_code=500, detail="Failed to parse valid JSON.")
