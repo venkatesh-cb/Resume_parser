@@ -7,6 +7,14 @@ import os
 import json
 import requests
 import re
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] %(levelname)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
 
 # --- Configuration ---
 MODEL_NAME = "TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
@@ -74,8 +82,8 @@ Resume text:
 {resume_text}
 \"\"\"
 
-Respond only with JSON:
-{{
+Respond only with JSON. Do not write anything else. Do not include explanations, headers, or notes. 
+Start your response directly with {{
   "name": "...",
   "contact": {{
     "email": "...",
@@ -133,7 +141,8 @@ def clean_llm_output(text_output):
         # Extract only the JSON block
         match = re.search(r"\{.*\}", cleaned, re.DOTALL)
         if not match:
-            print("❌ No valid JSON object found in the LLM output.")
+            logging.info(f"🔍 Raw model output:\n{text_output[:500]}")
+            logging.error("❌ No valid JSON object found in the LLM output.")
             return None
 
         json_string = match.group()
@@ -184,11 +193,11 @@ async def parse_resume(request: ResumeRequest):
     if not llm:
         raise HTTPException(status_code=503, detail="Model is not loaded.")
 
-    print("🔹 Received request.")
+    logging.info("🔹 Received request.")
     prompt = get_llm_prompt(request.resume_text)
 
     try:
-        output = llm(prompt, max_tokens=4096, stop=["```"], echo=False)
+        output = llm(prompt, max_tokens=8192, stop=["```"], echo=False)
         raw_text = output["choices"][0]["text"]
         parsed_json = clean_llm_output(raw_text)
 

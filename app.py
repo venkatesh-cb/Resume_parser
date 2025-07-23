@@ -17,7 +17,11 @@ os.makedirs(PARSED_DIR, exist_ok=True)
 
 st.title("📄 Resume Parser using LLM")
 
-uploaded_file = st.file_uploader("Upload your resume (PDF only)", type=["pdf"])
+uploaded_file = st.file_uploader(
+    "Upload your resume (PDF, DOCX, DOC, PNG, JPG)", 
+    type=["pdf", "docx", "doc", "png", "jpg", "jpeg"]
+)
+
 
 if uploaded_file:
     file_path = os.path.join(UPLOAD_DIR, uploaded_file.name)

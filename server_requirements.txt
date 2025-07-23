@@ -12,3 +12,8 @@ uvicorn[standard]
 llama-cpp-python
 pydantic
 requests # To download the model
+pytesseract
+Pillow
+docx2txt
+textract
+python-docx  # Optional, but helpful
